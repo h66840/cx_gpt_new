@@ -1,0 +1,8 @@
+2025-05-29 04:15:13,242 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-29 04:15:14,007 - INFO - Yuxi - Database tables created/checked
+2025-05-29 04:15:16,818 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-29 04:15:16,818 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-29 04:15:23,366 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-29 04:15:30,550 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 04:15:30,566 - INFO - Yuxi - 用户 admin 获取实验 1 的所有步骤 (包含答案: False)
+2025-05-29 04:15:37,183 - INFO - Yuxi - 用户 admin 获取实验 1 的所有步骤 (包含答案: False)

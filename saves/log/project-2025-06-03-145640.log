@@ -1,0 +1,37 @@
+2025-06-03 14:56:40,358 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 14:56:40,985 - INFO - Yuxi - Database tables created/checked
+2025-06-03 14:56:43,030 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 14:56:43,031 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 14:56:48,839 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 14:56:53,270 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-03 14:57:07,046 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 14:57:07,050 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 14:57:07,052 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:57:07,052 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:57:07,052 - DEBUG - Yuxi - 步骤 3: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 14:57:22,087 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 14:57:22,090 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 14:57:22,092 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:57:22,093 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:57:22,093 - DEBUG - Yuxi - 步骤 3: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 14:57:49,251 - INFO - Yuxi - 用户 admin 尝试开始已完成的实验 基于agent的视觉推理实验。返回现有记录 10，分数 90.0 不变，当前步骤ID更新为: 2
+2025-06-03 14:57:50,177 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 14:57:50,179 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 14:57:50,179 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:57:50,180 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 14:57:50,180 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:59:47,311 - INFO - Yuxi - 用户 admin 请求完成实验记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 2, 'score': 40.0}
+2025-06-03 14:59:47,315 - WARNING - Yuxi - 用户 admin 尝试重复完成已完成的实验记录 10。
+2025-06-03 14:59:49,937 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 14:59:49,939 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 14:59:49,940 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 14:59:49,940 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 14:59:49,940 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0

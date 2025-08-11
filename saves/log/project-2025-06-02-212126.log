@@ -1,0 +1,46 @@
+2025-06-02 21:21:26,115 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-02 21:21:26,670 - INFO - Yuxi - Database tables created/checked
+2025-06-02 21:21:28,590 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-02 21:21:28,591 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-02 21:21:33,871 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-02 21:22:04,022 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-02 21:22:09,746 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 21:22:09,754 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=5, 整体状态=completed, 当前步骤ID=3
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 completed, score=3.0。
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='completed', score=3.0
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 completed, score=3.0。
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='completed', score=3.0
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 COMPLETED，设置为 completed, score=3.0。
+2025-06-02 21:22:09,754 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='completed', score=3.0
+2025-06-02 21:22:09,754 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 5
+2025-06-02 21:22:20,720 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 21:22:20,724 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=5, 整体状态=completed, 当前步骤ID=3
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 completed, score=3.0。
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='completed', score=3.0
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 completed, score=3.0。
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='completed', score=3.0
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 COMPLETED，设置为 completed, score=3.0。
+2025-06-02 21:22:20,724 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='completed', score=3.0
+2025-06-02 21:22:20,724 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 5

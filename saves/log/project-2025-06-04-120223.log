@@ -1,0 +1,69 @@
+2025-06-04 12:02:23,410 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-04 12:02:23,975 - INFO - Yuxi - Database tables created/checked
+2025-06-04 12:02:26,553 - DEBUG - Yuxi - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-04 12:02:26,610 - INFO - Yuxi - Successfully connected to Milvus at http://localhost:19530
+2025-06-04 12:02:26,611 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-04 12:02:26,611 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-04 12:02:30,322 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-04 12:02:51,584 - INFO - Yuxi - Selecting model from `deepseek` with `Qwen/Qwen2.5-7B-Instruct`
+2025-06-04 12:03:08,828 - INFO - Yuxi - Saving config to saves\config\base.yaml
+2025-06-04 12:03:08,832 - INFO - Yuxi - Config file saves\config\base.yaml saved
+2025-06-04 12:03:16,666 - INFO - Yuxi - Selecting model from `dashscope` with `qwen-max-latest`
+2025-06-04 12:03:16,666 - DEBUG - Yuxi - Received query: 你好 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'qwen-max-latest'}
+2025-06-04 12:03:17,359 - ERROR - Yuxi - Model error: 'NoneType' object has no attribute 'choices', Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\chat_router.py", line 119, in generate_response
+    for delta in model.predict(messages, stream=True):
+  File "E:\source\PycharmProject\LabClass\src\models\chat_model.py", line 157, in _stream_response
+    message = chunk.output.choices[0].message
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'choices'
+
+2025-06-04 12:03:30,704 - INFO - Yuxi - Saving config to saves\config\base.yaml
+2025-06-04 12:03:30,706 - INFO - Yuxi - Config file saves\config\base.yaml saved
+2025-06-04 12:03:37,238 - INFO - Yuxi - Selecting model from `siliconflow` with `Pro/deepseek-ai/DeepSeek-R1`
+2025-06-04 12:03:37,304 - DEBUG - Yuxi - Received query: 你好 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'Pro/deepseek-ai/DeepSeek-R1'}
+2025-06-04 12:03:45,508 - DEBUG - Yuxi - Final response: 
+你好！👋有什么可以帮您的吗？无论是编程问题（比如算法、Python等学习内容）、技术概念解释，还是其他方面的疑问，我都会尽力为您解答！ 😊  
+
+例如：  
+- 想了解更多排序算法吗？  
+- 需要解释冒泡排序的优化吗？  
+- 或有其他编程/学习需求？  
+
+随时告诉我您的需求~
+2025-06-04 12:03:45,508 - DEBUG - Yuxi - Final reasoning response: 我们之前已经讨论过冒泡排序，现在用户只是说“你好”，所以可能只是打招呼或者重新开始对话。
+ 既然用户没有提出新的具体问题，我们可以友好回应，并准备回答后续问题。
+ 但考虑到之前讨论的是冒泡排序，也许用户会继续询问相关的内容，不过现在只需简单回应即可。
+
+2025-06-04 12:04:00,120 - INFO - Yuxi - Saving config to saves\config\base.yaml
+2025-06-04 12:04:00,121 - INFO - Yuxi - Config file saves\config\base.yaml saved
+2025-06-04 12:04:02,175 - INFO - Yuxi - Selecting model from `zhipu` with `glm-4`
+2025-06-04 12:04:02,242 - DEBUG - Yuxi - Received query: 写一个简单的冒泡排序 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'glm-4'}
+2025-06-04 12:04:15,570 - DEBUG - Yuxi - Final response: 冒泡排序（Bubble Sort）是一种简单的排序算法。它重复地遍历要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。遍历数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。
+
+以下是一个简单的冒泡排序算法的Python实现：
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    # 遍历所有数组元素
+    for i in range(n):
+        # 最后i个元素已经到位
+        for j in range(0, n-i-1):
+            # 遍历数组从0到n-i-1
+            # 交换如果发现元素大于下一个元素
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# 测试代码
+if __name__ == "__main__":
+    arr = [64, 34, 25, 12, 22, 11, 90]
+    sorted_arr = bubble_sort(arr)
+    print("Sorted array:", sorted_arr)
+```
+
+在这个例子中，`bubble_sort` 函数接受一个数组 `arr` 作为输入，并返回其排序后的版本。排序是通过两个嵌套的循环完成的：外循环移动未排序部分的边界，内循环进行实际的比较和交换。
+
+请注意，冒泡排序不是一个适合处理大数据集的算法，因为其平均和最坏情况的时间复杂度都是 O(n²)，其中 n 是要排序的元素数量。但它的代码实现简单，适合教学目的。
+2025-06-04 12:04:15,571 - DEBUG - Yuxi - Final reasoning response: 

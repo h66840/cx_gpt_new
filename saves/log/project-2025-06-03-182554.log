@@ -1,0 +1,12 @@
+2025-06-03 18:25:54,165 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 18:25:54,776 - INFO - Yuxi - Database tables created/checked
+2025-06-03 18:25:57,556 - DEBUG - Yuxi - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-03 18:25:57,622 - INFO - Yuxi - Successfully connected to Milvus at http://localhost:19530
+2025-06-03 18:25:57,623 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 18:25:57,623 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 18:26:02,014 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 18:26:36,251 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:26:36,256 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:26:36,258 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:26:36,258 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:26:36,258 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'completed', 分数 60.0

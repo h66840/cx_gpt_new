@@ -1,0 +1,81 @@
+2025-05-29 21:39:57,147 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-29 21:39:58,019 - INFO - Yuxi - Database tables created/checked
+2025-05-29 21:40:00,948 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-29 21:40:00,948 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-29 21:40:15,099 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-29 21:40:44,741 - INFO - Yuxi - 用户 小明 获取实验 1 的记录详情，记录ID: 2
+2025-05-29 21:41:15,991 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-29 21:42:06,575 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:42:08,859 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 21:42:10,355 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:42:12,374 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:43:14,778 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:49:29,817 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:49:44,086 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 21:49:52,786 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:50:20,338 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:50:32,101 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:50:36,049 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:50:39,232 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:50:47,808 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 21:51:08,882 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:08:12,282 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:08:14,939 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 22:08:16,514 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:08:18,338 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:08:21,639 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 22:08:23,306 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:08:39,984 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:09:05,119 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 22:09:13,674 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 22:09:39,718 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-30 05:53:11,030 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-30 05:53:34,692 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-30 05:54:33,393 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-30 05:54:38,639 - INFO - Yuxi - 用户 小谢 获取实验 1 的记录详情，记录ID: 3
+2025-05-30 05:54:44,615 - INFO - Yuxi - 用户 小谢 继续实验 基于agent的视觉推理实验
+2025-05-30 05:54:46,085 - INFO - Yuxi - 用户 小谢 获取实验 1 的记录详情，记录ID: 3
+2025-05-30 05:55:42,595 - INFO - Yuxi - 用户 小谢 获取实验 1 的记录详情，记录ID: 3
+2025-05-30 05:56:03,089 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-30 05:56:44,519 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-30 05:56:49,406 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1

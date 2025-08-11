@@ -1,0 +1,19 @@
+default_agent_id: ''
+device: cuda
+embed_model: local/BAAI/bge-m3
+enable_knowledge_base: true
+enable_knowledge_graph: false
+enable_reranker: true
+enable_web_search: true
+filename: saves\config\base.yaml
+model_dir: ''
+model_local_paths: {}
+model_name: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+model_provider: siliconflow
+reranker: siliconflow/BAAI/bge-reranker-v2-m3
+save_dir: saves
+use_rewrite_query: 'on'
+valuable_model_provider:
+- zhipu
+- siliconflow
+- dashscope

@@ -1,0 +1,8 @@
+2025-06-19 10:39:17,884 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-19 10:39:19,004 - INFO - XiDian - Database tables created/checked
+2025-06-19 10:39:31,569 - DEBUG - XiDian - Loading embedding model local/BAAI/bge-m3
+2025-06-19 10:39:31,569 - INFO - XiDian - Loading local model `BAAI/bge-m3` from `BAAI/bge-m3` with device `cuda`
+2025-06-19 10:39:31,569 - DEBUG - XiDian - 如果没配置任何路径的话，正常情况下会自动从 Huggingface 下载模型，如果遇到下载失败，可以尝试使用 HF_MIRROR 环境变量；如果还是不行，建议手动下载到某个文件夹，比如  /models/BAAI/bge-m3 目录下；
+2025-06-19 10:40:05,700 - INFO - XiDian - Embedding model BAAI/bge-m3 loaded, self.model=HuggingFaceEmbeddings(model_name='BAAI/bge-m3', cache_folder=None, model_kwargs={'device': 'cuda'}, encode_kwargs={'normalize_embeddings': True, 'prompt_name': None}, query_encode_kwargs={}, multi_process=False, show_progress=False)
+2025-06-19 10:40:16,100 - ERROR - XiDian - Failed to connect to Milvus: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>，请检查 milvus 的容器是否正常运行。
+2025-06-19 10:40:16,100 - ERROR - XiDian - 如果已退出，请重新启动 `docker restart milvus-standalone-dev`。

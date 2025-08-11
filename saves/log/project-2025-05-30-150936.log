@@ -1,0 +1,6 @@
+2025-05-30 15:09:36,688 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-30 15:09:37,207 - INFO - Yuxi - Database tables created/checked
+2025-05-30 15:09:38,950 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-30 15:09:38,950 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-30 15:09:43,265 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-30 15:09:47,771 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情，记录ID: 1

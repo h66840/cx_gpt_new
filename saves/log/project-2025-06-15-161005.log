@@ -1,0 +1,16 @@
+2025-06-15 16:10:05,382 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-15 16:10:05,985 - INFO - XiDian - Database tables created/checked
+2025-06-15 16:10:08,711 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-15 16:10:08,776 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-15 16:10:08,776 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-15 16:10:08,776 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-15 16:10:12,852 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-15 16:10:32,682 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-15 16:10:32,685 - DEBUG - XiDian - OperationLog 表的总行数: 1052
+2025-06-15 16:10:32,685 - DEBUG - XiDian - 当前Python本地时间: 2025-06-15 16:10:32.685922
+2025-06-15 16:10:32,685 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-15 08:10:32.685922
+2025-06-15 16:10:32,685 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-15 16:10:32,685 - DEBUG - XiDian - 计算的 UTC 日期范围 (用于数据库查询): start_date_utc=2025-06-02, today_utc=2025-06-15
+2025-06-15 16:10:32,691 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 1052
+2025-06-15 16:10:32,693 - DEBUG - XiDian - Python 内存中手动过滤和聚合后的结果: {'2025-06-04': {'total_operations': 16, 'registration_count': 4}, '2025-06-06': {'total_operations': 226, 'registration_count': 0}, '2025-06-07': {'total_operations': 206, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 594, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 4, 'registration_count': 0}}
+2025-06-15 16:10:32,693 - DEBUG - XiDian - Python 内存中聚合到的天数: 7

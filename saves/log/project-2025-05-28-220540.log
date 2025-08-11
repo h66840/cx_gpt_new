@@ -1,0 +1,63 @@
+2025-05-28 22:05:40,705 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-28 22:05:41,232 - INFO - Yuxi - Database tables created/checked
+2025-05-28 22:05:43,281 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-28 22:05:43,281 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-28 22:05:47,758 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-28 22:06:34,842 - DEBUG - Yuxi - agents: [{'name': 'chatbot', 'description': '基础的对话机器人，可以回答问题，默认不使用任何工具，可在配置中启用需要的工具。', 'config_schema': {'thread_id': '0259fb26-856f-432e-affc-99b56f2b92aa', 'user_id': 'eff44710-7f1f-4593-8f6a-1977f9c893e3', 'system_prompt': 'You are a helpful assistant.', 'model': 'zhipu/glm-4-plus', 'tools': [], 'configurable_items': {'system_prompt': {'type': 'str', 'name': '系统提示词', 'options': [], 'default': 'You are a helpful assistant.', 'description': '用来描述智能体的角色和行为'}, 'model': {'type': 'str', 'name': '智能体模型', 'options': ['zhipu/glm-4-plus', 'siliconflow/Qwen/Qwen2.5-72B-Instruct', 'siliconflow/Qwen/Qwen2.5-7B-Instruct'], 'default': 'zhipu/glm-4-plus', 'description': '智能体的驱动模型'}, 'tools': {'type': 'list', 'name': '工具', 'options': ['Calculator', 'QueryKnowledgeGraph', 'WebSearchWithTavily'], 'default': <dataclasses._MISSING_TYPE object at 0x000002990B7ED010>, 'description': '工具列表'}}}, 'requirements': ['TAVILY_API_KEY', 'ZHIPUAI_API_KEY'], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}, {'name': 'react', 'description': 'A react agent that can answer questions and help with tasks.', 'config_schema': {'thread_id': '24d3206a-8f9c-41e5-b2d8-8fa8673f9a74', 'user_id': '30ee045b-7df7-40c2-b50d-6459ac271d88', 'configurable_items': {}}, 'requirements': [], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}]
+2025-05-28 22:06:38,181 - DEBUG - Yuxi - agents: [{'name': 'chatbot', 'description': '基础的对话机器人，可以回答问题，默认不使用任何工具，可在配置中启用需要的工具。', 'config_schema': {'thread_id': '850c767a-8f2a-4fc9-a249-67d3981eb120', 'user_id': '64920b28-f507-498b-a44f-e8967ce61296', 'system_prompt': 'You are a helpful assistant.', 'model': 'zhipu/glm-4-plus', 'tools': [], 'configurable_items': {'system_prompt': {'type': 'str', 'name': '系统提示词', 'options': [], 'default': 'You are a helpful assistant.', 'description': '用来描述智能体的角色和行为'}, 'model': {'type': 'str', 'name': '智能体模型', 'options': ['zhipu/glm-4-plus', 'siliconflow/Qwen/Qwen2.5-72B-Instruct', 'siliconflow/Qwen/Qwen2.5-7B-Instruct'], 'default': 'zhipu/glm-4-plus', 'description': '智能体的驱动模型'}, 'tools': {'type': 'list', 'name': '工具', 'options': ['Calculator', 'QueryKnowledgeGraph', 'WebSearchWithTavily'], 'default': <dataclasses._MISSING_TYPE object at 0x000002990B7ED010>, 'description': '工具列表'}}}, 'requirements': ['TAVILY_API_KEY', 'ZHIPUAI_API_KEY'], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}, {'name': 'react', 'description': 'A react agent that can answer questions and help with tasks.', 'config_schema': {'thread_id': 'a337fa5d-593b-4a5e-bed9-8a6bd41ebba1', 'user_id': '41a15cab-915e-4e91-bc85-d7f648243c00', 'configurable_items': {}}, 'requirements': [], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}]
+2025-05-28 22:06:41,755 - DEBUG - Yuxi - agents: [{'name': 'chatbot', 'description': '基础的对话机器人，可以回答问题，默认不使用任何工具，可在配置中启用需要的工具。', 'config_schema': {'thread_id': '34db1041-ec7d-44ab-be46-187273ada6a7', 'user_id': '203864c5-98c1-4a36-90d5-a7471612c161', 'system_prompt': 'You are a helpful assistant.', 'model': 'zhipu/glm-4-plus', 'tools': [], 'configurable_items': {'system_prompt': {'type': 'str', 'name': '系统提示词', 'options': [], 'default': 'You are a helpful assistant.', 'description': '用来描述智能体的角色和行为'}, 'model': {'type': 'str', 'name': '智能体模型', 'options': ['zhipu/glm-4-plus', 'siliconflow/Qwen/Qwen2.5-72B-Instruct', 'siliconflow/Qwen/Qwen2.5-7B-Instruct'], 'default': 'zhipu/glm-4-plus', 'description': '智能体的驱动模型'}, 'tools': {'type': 'list', 'name': '工具', 'options': ['Calculator', 'QueryKnowledgeGraph', 'WebSearchWithTavily'], 'default': <dataclasses._MISSING_TYPE object at 0x000002990B7ED010>, 'description': '工具列表'}}}, 'requirements': ['TAVILY_API_KEY', 'ZHIPUAI_API_KEY'], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}, {'name': 'react', 'description': 'A react agent that can answer questions and help with tasks.', 'config_schema': {'thread_id': '93064a4d-cb21-4c5a-a945-02069e2e29d4', 'user_id': '06f7d08f-45e4-48cd-804a-5f8fd98bfe11', 'configurable_items': {}}, 'requirements': [], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}]
+2025-05-28 22:06:44,843 - DEBUG - Yuxi - agents: [{'name': 'chatbot', 'description': '基础的对话机器人，可以回答问题，默认不使用任何工具，可在配置中启用需要的工具。', 'config_schema': {'thread_id': 'd65635e8-2347-495b-b113-d8798f6819ef', 'user_id': '647223b7-ff75-49cd-b765-f55b0253c60e', 'system_prompt': 'You are a helpful assistant.', 'model': 'zhipu/glm-4-plus', 'tools': [], 'configurable_items': {'system_prompt': {'type': 'str', 'name': '系统提示词', 'options': [], 'default': 'You are a helpful assistant.', 'description': '用来描述智能体的角色和行为'}, 'model': {'type': 'str', 'name': '智能体模型', 'options': ['zhipu/glm-4-plus', 'siliconflow/Qwen/Qwen2.5-72B-Instruct', 'siliconflow/Qwen/Qwen2.5-7B-Instruct'], 'default': 'zhipu/glm-4-plus', 'description': '智能体的驱动模型'}, 'tools': {'type': 'list', 'name': '工具', 'options': ['Calculator', 'QueryKnowledgeGraph', 'WebSearchWithTavily'], 'default': <dataclasses._MISSING_TYPE object at 0x000002990B7ED010>, 'description': '工具列表'}}}, 'requirements': ['TAVILY_API_KEY', 'ZHIPUAI_API_KEY'], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}, {'name': 'react', 'description': 'A react agent that can answer questions and help with tasks.', 'config_schema': {'thread_id': '56173961-025f-4bb4-a09b-d39bbbfc8676', 'user_id': '431cbd8f-833e-46a5-b74b-ba38b1d492b4', 'configurable_items': {}}, 'requirements': [], 'all_tools': [], 'has_checkpointer': True, 'met_requirements': True}]
+2025-05-28 22:07:03,442 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 22:07:06,394 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 22:07:26,665 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 22:07:32,611 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 22:07:42,809 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 22:07:44,296 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+

@@ -1,0 +1,18 @@
+2025-06-15 15:06:22,628 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-15 15:06:23,202 - INFO - XiDian - Database tables created/checked
+2025-06-15 15:06:25,758 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-15 15:06:25,819 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-15 15:06:25,819 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-15 15:06:25,819 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-15 15:06:29,689 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-15 15:06:39,484 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-15 15:06:39,486 - DEBUG - XiDian - 当前Python本地时间: 2025-06-15 15:06:39.486971
+2025-06-15 15:06:39,486 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-15 07:06:39.486971
+2025-06-15 15:06:39,486 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-15 15:06:39,487 - DEBUG - XiDian - 计算的 UTC 日期范围 (用于数据库查询): start_date_utc=2025-06-02, today_utc=2025-06-15
+2025-06-15 15:06:39,489 - DEBUG - XiDian - 编译后的 SQL 查询语句: SELECT CAST(operation_logs.timestamp AS DATE) AS log_date, count(operation_logs.id) AS total_operations, sum(CASE WHEN (operation_logs.operation = '用户注册') THEN 1 ELSE 0 END) AS registration_count 
+FROM operation_logs 
+WHERE CAST(operation_logs.timestamp AS DATE) BETWEEN '2025-06-02' AND '2025-06-15' GROUP BY log_date ORDER BY log_date
+2025-06-15 15:06:39,491 - DEBUG - XiDian - 原始数据库查询结果 (query_result): []
+2025-06-15 15:06:39,491 - DEBUG - XiDian -   query_result 为空，数据库在此 UTC 日期范围内没有匹配数据。
+2025-06-15 15:06:39,491 - DEBUG - XiDian - 从数据库查询到 0 天的有效数据。

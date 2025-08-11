@@ -1,0 +1,190 @@
+2025-06-06 15:12:53,610 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-06 15:12:54,484 - INFO - XiDian - Database tables created/checked
+2025-06-06 15:12:57,867 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-06 15:13:04,751 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-06 15:13:04,752 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-06 15:13:04,752 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-06 15:13:40,637 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-06 15:14:44,572 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:14:44,577 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:14:44,578 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:14:44,579 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,633 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-06 15:15:11,634 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:11,635 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,535 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-06 15:15:27,536 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:15:27,538 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,538 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:27,539 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:33,786 - INFO - XiDian - 用户 小冰 首次开始实验 1 的步骤 1，创建新记录: 2
+2025-06-06 15:15:34,038 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-06 15:15:34,040 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:15:34,041 - DEBUG - XiDian - 步骤 1: 找到记录 2，状态 'in_progress', 分数 0.0
+2025-06-06 15:15:34,041 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,041 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:15:34,042 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:31,052 - INFO - XiDian - 用户 小冰 请求完成实验步骤记录，数据: {'user_id': 4, 'experiment_id': 1, 'current_step_id': 1, 'score': 100.0}
+2025-06-06 15:17:31,059 - INFO - XiDian - 用户 小冰 成功完成实验步骤记录 2 (步骤: 1)，得分: 100.0
+2025-06-06 15:17:33,980 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-06 15:17:33,981 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:17:33,982 - DEBUG - XiDian - 步骤 1: 找到记录 2，状态 'completed', 分数 100.0
+2025-06-06 15:17:33,982 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,982 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,982 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,982 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,982 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,983 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,983 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,983 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:33,983 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,542 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 3
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,543 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,544 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,544 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,544 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:17:48,544 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,285 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 5
+2025-06-06 15:18:16,286 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:16,287 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,628 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 3
+2025-06-06 15:18:31,629 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:18:31,629 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,629 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:31,630 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,634 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-06 15:18:46,635 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:18:46,635 - DEBUG - XiDian - 步骤 1: 找到记录 2，状态 'completed', 分数 100.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:18:46,636 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,126 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:19:22,131 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:19:22,134 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,135 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,135 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,135 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:19:22,136 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,136 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,136 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,136 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,136 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:19:22,136 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,813 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:25:01,814 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:01,815 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,970 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:25:03,973 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:25:03,975 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,975 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,976 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,976 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:25:03,976 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,976 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,977 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,977 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,977 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:25:03,977 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,251 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:26:33,252 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,253 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,254 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:33,254 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,256 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:26:38,257 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:26:38,257 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:38,258 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,676 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-06 15:26:44,676 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,677 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-06 15:26:44,678 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0

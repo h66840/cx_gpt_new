@@ -1,0 +1,34 @@
+2025-05-29 05:09:08,425 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-29 05:09:09,209 - INFO - Yuxi - Database tables created/checked
+2025-05-29 05:09:11,860 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-29 05:09:11,860 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-29 05:09:18,605 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-29 05:09:31,508 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:09:36,486 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 05:09:48,436 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:09:50,932 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:14:31,118 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:15:54,932 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 05:15:56,318 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:15:57,379 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:15:59,681 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 05:16:00,666 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:16:02,724 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:16:16,517 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 05:16:17,872 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:16:19,275 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:16:28,495 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:19:24,679 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-29 05:19:26,290 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:19:27,260 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-29 05:28:31,046 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-29 05:36:56,341 - INFO - Yuxi - 用户 小明 在实验 1 没有现有记录，返回默认未开始状态。
+2025-05-29 05:37:01,030 - INFO - Yuxi - 用户 小明 在实验 1 没有现有记录，返回默认未开始状态。

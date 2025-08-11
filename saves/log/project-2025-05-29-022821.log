@@ -1,0 +1,17 @@
+2025-05-29 02:28:21,383 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-29 02:28:22,411 - INFO - Yuxi - Database tables created/checked
+2025-05-29 02:28:25,767 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-29 02:28:25,767 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-29 02:28:32,856 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-29 02:28:37,707 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-29 02:28:47,471 - INFO - Yuxi - 用户 admin 获取实验 1 的所有步骤 (包含答案: <server.models.user_model.User object at 0x000001C6731BF1D0>)
+2025-05-29 02:29:03,195 - INFO - Yuxi - 用户 admin 获取实验 1 的所有步骤 (包含答案: <server.models.user_model.User object at 0x000001C6731C9F50>)
+2025-05-29 02:30:10,835 - INFO - Yuxi - 用户 admin 获取实验 1 的所有步骤 (包含答案: <server.models.user_model.User object at 0x000001C6731D4210>)

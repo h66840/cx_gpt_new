@@ -1,0 +1,46 @@
+2025-06-15 15:55:21,004 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-15 15:55:21,562 - INFO - XiDian - Database tables created/checked
+2025-06-15 15:55:24,132 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-15 15:55:24,255 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-15 15:55:24,255 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-15 15:55:24,255 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-15 15:55:28,170 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-15 15:55:42,955 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-15 15:55:42,959 - DEBUG - XiDian - OperationLog 表的总行数: 1053
+2025-06-15 15:55:42,959 - DEBUG - XiDian - 当前Python本地时间: 2025-06-15 15:55:42.959144
+2025-06-15 15:55:42,960 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-15 07:55:42.959144
+2025-06-15 15:55:42,960 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-15 15:55:42,960 - DEBUG - XiDian - 计算的 UTC 日期范围 (用于数据库查询): start_date_utc=2025-06-02, today_utc=2025-06-15
+2025-06-15 15:55:42,966 - ERROR - XiDian - 获取活动日志统计失败: Invalid isoformat string: '2025-06-11 01:00:00 UTC'
+Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\dashboard_router.py", line 70, in get_activity_stats
+    all_logs = db.query(OperationLog).all()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\engine\result.py", line 1774, in all
+    return self._allrows()
+           ^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\engine\result.py", line 548, in _allrows
+    rows = self._fetchall_impl()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\engine\result.py", line 1681, in _fetchall_impl
+    return self._real_result._fetchall_impl()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\engine\result.py", line 2275, in _fetchall_impl
+    return list(self.iterator)
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\orm\loading.py", line 219, in chunks
+    fetch = cursor._raw_all_rows()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\engine\result.py", line 541, in _raw_all_rows
+    return [make_row(row) for row in rows]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\Anaconda\envs\AIclass\Lib\site-packages\sqlalchemy\engine\result.py", line 541, in <listcomp>
+    return [make_row(row) for row in rows]
+            ^^^^^^^^^^^^^
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 22, in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 79, in sqlalchemy.cyextension.resultproxy._apply_processors
+  File "lib/sqlalchemy/cyextension/processors.pyx", line 40, in sqlalchemy.cyextension.processors.str_to_datetime
+ValueError: Invalid isoformat string: '2025-06-11 01:00:00 UTC'

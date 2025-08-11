@@ -1,0 +1,34 @@
+2025-05-28 23:07:50,398 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-28 23:07:50,931 - INFO - Yuxi - Database tables created/checked
+2025-05-28 23:07:52,648 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-28 23:07:52,648 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-28 23:07:56,740 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-28 23:08:01,980 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 23:08:10,124 - INFO - Yuxi - Selecting model from `siliconflow` with `Qwen/Qwen2.5-7B-Instruct`
+2025-05-28 23:08:10,271 - DEBUG - Yuxi - Received query: 写一个简单的冒泡排序 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'db_id': None, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'Qwen/Qwen2.5-7B-Instruct'}
+2025-05-28 23:08:43,850 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-28 23:14:46,388 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+

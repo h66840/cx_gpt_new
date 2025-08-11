@@ -1,0 +1,50 @@
+2025-06-03 16:48:10,424 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 16:48:10,991 - INFO - Yuxi - Database tables created/checked
+2025-06-03 16:48:13,034 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 16:48:13,034 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 16:48:17,388 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 16:48:38,101 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 1
+2025-06-03 16:48:38,105 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:48:38,106 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:48:38,109 - DEBUG - Yuxi - 步骤 2: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 16:48:38,109 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:49:50,531 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:49:50,531 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:49:50,535 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:49:50,535 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:49:50,535 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:50:21,365 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:50:21,365 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:50:21,365 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:50:21,371 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:50:21,371 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:51:50,994 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:51:51,002 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:51:51,003 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:51:51,003 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:51:51,003 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:55:25,919 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:55:25,919 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:55:25,919 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:55:25,919 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:55:25,919 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:56:33,964 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:56:33,980 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:56:33,980 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:56:33,980 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:56:33,980 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:58:48,899 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:58:48,901 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:58:48,901 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:58:48,901 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:58:48,901 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:58:51,846 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:58:51,846 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:58:51,846 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:58:51,846 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:58:51,846 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:59:03,731 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 4
+2025-06-03 16:59:03,731 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:59:03,731 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:59:03,731 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'not_started', 分数 0.0
+2025-06-03 16:59:03,731 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'not_started', 分数 0.0

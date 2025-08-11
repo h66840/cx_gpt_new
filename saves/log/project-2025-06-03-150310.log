@@ -1,0 +1,29 @@
+2025-06-03 15:03:10,086 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 15:03:11,072 - INFO - Yuxi - Database tables created/checked
+2025-06-03 15:03:16,926 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 15:03:16,927 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 15:03:49,538 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 15:03:52,966 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:03:52,977 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:03:52,978 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:03:52,983 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 15:03:52,983 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:03:56,236 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:03:56,238 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:03:56,240 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:03:56,240 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 15:03:56,241 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:04:15,374 - INFO - Yuxi - 用户 admin 尝试开始已完成的实验 基于agent的视觉推理实验。返回现有记录 10，分数 90.0 不变，当前步骤ID更新为: 1
+2025-06-03 15:04:16,295 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:04:16,297 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:04:16,298 - DEBUG - Yuxi - 步骤 1: 找到记录 10，状态 'completed', 分数 90.0
+2025-06-03 15:04:16,299 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:04:16,299 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:35:31,687 - INFO - Yuxi - 用户 admin 请求完成实验记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'score': 95.0}
+2025-06-03 15:35:31,689 - WARNING - Yuxi - 用户 admin 尝试重复完成已完成的实验记录 10。
+2025-06-03 15:35:31,727 - INFO - Yuxi - 用户 admin 成功完成实验记录 10，得分: 95.0
+2025-06-03 15:35:36,477 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:35:36,478 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:35:36,480 - DEBUG - Yuxi - 步骤 1: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:35:36,480 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:35:36,480 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0

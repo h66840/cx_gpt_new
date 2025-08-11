@@ -1,0 +1,11 @@
+2025-06-02 22:06:52,654 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-02 22:06:53,193 - INFO - Yuxi - Database tables created/checked
+2025-06-02 22:06:55,028 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-02 22:06:55,028 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-02 22:06:59,270 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-02 22:07:30,292 - INFO - Yuxi - 用户 admin 请求完成实验记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 2, 'score': 90.0}
+2025-06-02 22:07:30,294 - WARNING - Yuxi - 用户 admin 尝试重复完成已完成的实验记录 10。
+2025-06-02 22:07:42,081 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-02 22:07:42,085 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 22:07:43,421 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-02 22:07:43,421 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。

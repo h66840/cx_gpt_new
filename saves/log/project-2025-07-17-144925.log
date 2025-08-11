@@ -1,0 +1,141 @@
+2025-07-17 14:49:25,757 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-07-17 14:49:26,982 - INFO - XiDian - Database tables created/checked
+2025-07-17 14:49:35,199 - DEBUG - XiDian - Loading embedding model local/BAAI/bge-m3
+2025-07-17 14:49:35,199 - INFO - XiDian - Loading local model `BAAI/bge-m3` from `BAAI/bge-m3` with device `cuda`
+2025-07-17 14:49:35,199 - DEBUG - XiDian - 如果没配置任何路径的话，正常情况下会自动从 Huggingface 下载模型，如果遇到下载失败，可以尝试使用 HF_MIRROR 环境变量；如果还是不行，建议手动下载到某个文件夹，比如  /models/BAAI/bge-m3 目录下；
+2025-07-17 14:50:17,516 - INFO - XiDian - Embedding model BAAI/bge-m3 loaded, self.model=HuggingFaceEmbeddings(model_name='BAAI/bge-m3', cache_folder=None, model_kwargs={'device': 'cuda'}, encode_kwargs={'normalize_embeddings': True, 'prompt_name': None}, query_encode_kwargs={}, multi_process=False, show_progress=False)
+2025-07-17 14:50:17,721 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-07-17 14:50:17,722 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-07-17 14:50:17,722 - DEBUG - XiDian - 创建新的图数据库配置
+2025-07-17 14:50:17,733 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-07-17 14:50:17,910 - WARNING - XiDian - 无法将知识库 实验课 转换为 Tools, 因为向量模型不匹配，当前向量模型: local/BAAI/bge-m3，知识库向量模型: siliconflow/BAAI/bge-m3。
+2025-07-17 14:52:05,023 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-07-17 14:52:05,027 - DEBUG - XiDian - OperationLog 表的总行数: 247
+2025-07-17 14:52:05,027 - DEBUG - XiDian - 当前Python本地时间: 2025-07-17 14:52:05.027476
+2025-07-17 14:52:05,027 - DEBUG - XiDian - 当前Python UTC时间: 2025-07-17 06:52:05.027476
+2025-07-17 14:52:05,027 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-07-17 14:52:05,029 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 247
+2025-07-17 14:52:05,030 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-07-17': {'total_operations': 1, 'registration_count': 0}}
+2025-07-17 14:52:05,030 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 1
+2025-07-17 14:52:41,432 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-07-17 14:52:41,437 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-07-17 14:52:41,438 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-07-17 14:52:41,438 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-07-17 14:52:41,438 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 14:52:41,438 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-07-17 14:52:41,439 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 14:52:41,439 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 14:52:41,439 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 14:52:41,439 - DEBUG - XiDian - 步骤 8: 找到记录 12，状态 'in_progress', 分数 0.0
+2025-07-17 14:52:41,439 - DEBUG - XiDian - 步骤 9: 找到记录 11，状态 'in_progress', 分数 0.0
+2025-07-17 14:52:41,439 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:31:31,504 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-07-17 15:31:31,715 - DEBUG - XiDian - Received query: 写一个简单的冒泡排序 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-07-17 15:31:43,606 - DEBUG - XiDian - Final response: 
+
+好的，以下是一个简单的冒泡排序的示例：
+
+### 代码示例
+```java
+public class BubbleSort {
+    public static void main(String[] args) {
+        int[] array = {64, 34, 25, 12, 22, 11, 99};
+        bubbleSort(array);
+        // 输出排序后的结果
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+    }
+
+    public static void bubbleSort(int[] array) {
+        int n = array.length;
+        int i, j;
+        boolean swapped;
+        for (i = 0; i < n - 1; i++) { // 外层循环控制排序轮数
+            swapped = false; // 每轮排序 reset 交换标记
+            for (j = 0; j < n - i - 1; j++) { // 内层循环进行相邻元素比较
+                // 比较当前元素和下一个元素
+                if (array[j] > array[j + 1]) {
+                    // 交换元素
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                    swapped = true; // 交换发生了
+                }
+            }
+            // 如果本轮排序没有发生交换，说明数组已经有序
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+}
+```
+
+### 代码解释
+1. **初始化数组**：我们首先定义了一个待排序的整数数组 `array`。
+2. **冒泡排序函数**：
+    - 外层循环 `for (i = 0; i < n - 1; i++)`：控制排序的轮数。轮数是从前往后检查，直到所有元素有序。
+    - 内层循环 `for (j = 0; j < n - i - 1; j++)`：在第 `i` 轮中，比较位置 `0` 到 `n - i - 2` 的元素，寻找需要交换的元素。
+    - 交换操作：如果当前元素大于下一个元素，交换它们的位置，并标记一个交换发生了。
+    - `swapped` 标记：用于判断在这一轮排序中是否进行了交换操作。如果没有交换，则可以提前终止排序。
+
+### 代码运行结果
+排序后的数组会输出到控制台：
+
+```
+11 22 34 64 99 12 25
+```
+
+其中，最后一轮的 `12` 和 `25` 还没有被正确排序，这是因为 `12` 已经小于 `25`，不需要交换位置。
+
+这个例子展示了冒泡排序的基本逻辑和实现方式，适用于小规模数组的排序。
+2025-07-17 15:31:43,606 - DEBUG - XiDian - Final reasoning response: 首先，我需要了解冒泡排序的基本原理。冒泡排序通过不断交换相邻的元素，逐步将较大的元素 sank 到数组的末尾。它是一种简单但效率较低的排序算法，适用于小规模的数据排序。
+
+接下来，我将按照以下步骤逐步实现冒泡排序：
+
+1.初始化排列好的数组和未排序数组。
+2.初始化两个标记，一个用于标记排序区域，另一个用于控制排序循环的次数。
+3.进入排序循环，每次循环从数组的最开始到最后一个元素-排序区域。
+4.在每次循环内部，进行一次交换操作：如果当前元素大于下一个元素，交换它们，并将排序区域向前移动一个位置。
+5.每次循环后，排序区域向前扩展一位，减少后续比较的次数。
+6.当排序循环完成所有轮次后，数组已经排序完毕。
+
+通过以上步骤，我逐步实现了冒泡排序的逻辑，并在代码中进行了详细的注释，以便于理解和使用。
+
+2025-07-17 15:35:16,851 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-07-17 15:35:16,854 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-07-17 15:35:16,856 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-07-17 15:35:16,857 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:16,857 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:16,857 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-07-17 15:35:16,858 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:16,858 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:16,859 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:16,859 - DEBUG - XiDian - 步骤 8: 找到记录 12，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:16,859 - DEBUG - XiDian - 步骤 9: 找到记录 11，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:16,859 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:25,719 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-07-17 15:35:25,722 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-07-17 15:35:25,724 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-07-17 15:35:25,725 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:25,725 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:25,725 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-07-17 15:35:25,725 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:25,726 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:25,726 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:25,727 - DEBUG - XiDian - 步骤 8: 找到记录 12，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:25,727 - DEBUG - XiDian - 步骤 9: 找到记录 11，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:25,727 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:28,416 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-07-17 15:35:28,423 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 8: 找到记录 12，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 9: 找到记录 11，状态 'in_progress', 分数 0.0
+2025-07-17 15:35:28,424 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0

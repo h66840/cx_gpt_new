@@ -1,0 +1,51 @@
+2025-06-03 17:59:48,313 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 17:59:48,880 - INFO - Yuxi - Database tables created/checked
+2025-06-03 17:59:50,683 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 17:59:50,683 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 17:59:54,941 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 17:59:56,981 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-03 18:00:00,859 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:00:00,862 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:00:00,863 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:00:00,863 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:00:00,864 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'in_progress', 分数 0.0
+2025-06-03 18:00:20,915 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 3
+2025-06-03 18:00:20,917 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:00:20,918 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:00:20,918 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:00:20,918 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:00:24,939 - INFO - Yuxi - 用户 小谢 首次开始实验 1 的步骤 1，创建新记录: 5
+2025-06-03 18:00:25,801 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 3
+2025-06-03 18:00:25,802 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:00:25,802 - DEBUG - Yuxi - 步骤 1: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-03 18:00:25,802 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:00:25,802 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:02:19,301 - INFO - Yuxi - 用户 小谢 请求完成实验步骤记录，数据: {'user_id': 3, 'experiment_id': 1, 'current_step_id': 1, 'score': 90.0}
+2025-06-03 18:02:19,349 - INFO - Yuxi - 用户 小谢 成功完成实验步骤记录 5 (步骤: 1)，得分: 90.0
+2025-06-03 18:02:21,287 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 3
+2025-06-03 18:02:21,291 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:02:21,293 - DEBUG - Yuxi - 步骤 1: 找到记录 5，状态 'completed', 分数 90.0
+2025-06-03 18:02:21,293 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:02:21,293 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:02:39,202 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-03 18:02:49,614 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:02:49,615 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:02:49,615 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:02:49,616 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:02:49,616 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'in_progress', 分数 0.0

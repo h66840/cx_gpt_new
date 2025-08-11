@@ -1,0 +1,10 @@
+2025-05-30 12:07:50,044 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-30 12:07:50,592 - INFO - Yuxi - Database tables created/checked
+2025-05-30 12:07:52,414 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-30 12:07:52,415 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-30 12:07:56,540 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-30 12:09:07,134 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-30 12:10:36,601 - INFO - Yuxi - 用户 小明 在实验 1 没有现有记录，返回默认未开始状态。
+2025-05-30 12:13:58,623 - INFO - Yuxi - 用户 小明 在实验 1 没有现有记录，返回默认未开始状态。
+2025-05-30 12:14:01,535 - INFO - Yuxi - 用户 小明 开始新实验 基于agent的视觉推理实验，设置当前步骤ID为: 1
+2025-05-30 12:14:03,044 - INFO - Yuxi - 用户 小明 获取实验 1 的记录详情，记录ID: 2

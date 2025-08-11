@@ -1,0 +1,448 @@
+2025-06-17 14:08:00,083 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-17 14:08:00,648 - INFO - XiDian - Database tables created/checked
+2025-06-17 14:08:03,355 - DEBUG - XiDian - Loading embedding model local/BAAI/bge-m3
+2025-06-17 14:08:03,355 - INFO - XiDian - Loading local model `BAAI/bge-m3` from `BAAI/bge-m3` with device `cuda`
+2025-06-17 14:08:03,355 - DEBUG - XiDian - 如果没配置任何路径的话，正常情况下会自动从 Huggingface 下载模型，如果遇到下载失败，可以尝试使用 HF_MIRROR 环境变量；如果还是不行，建议手动下载到某个文件夹，比如  /models/BAAI/bge-m3 目录下；
+2025-06-17 14:08:17,707 - INFO - XiDian - Embedding model BAAI/bge-m3 loaded, self.model=HuggingFaceEmbeddings(model_name='BAAI/bge-m3', cache_folder=None, model_kwargs={'device': 'cuda'}, encode_kwargs={'normalize_embeddings': True, 'prompt_name': None}, query_encode_kwargs={}, multi_process=False, show_progress=False)
+2025-06-17 14:08:17,826 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-17 14:08:17,827 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-17 14:08:17,827 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-17 14:08:17,899 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-17 14:08:18,007 - WARNING - XiDian - 无法将知识库 实验课 转换为 Tools, 因为向量模型不匹配，当前向量模型: local/BAAI/bge-m3，知识库向量模型: siliconflow/BAAI/bge-m3。
+2025-06-17 14:08:44,646 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:08:44,650 - DEBUG - XiDian - OperationLog 表的总行数: 222
+2025-06-17 14:08:44,651 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:08:44.650751
+2025-06-17 14:08:44,651 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:08:44.650751
+2025-06-17 14:08:44,651 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:08:44,657 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 222
+2025-06-17 14:08:44,660 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 3, 'registration_count': 1}}
+2025-06-17 14:08:44,660 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:10:49,264 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:10:49,266 - DEBUG - XiDian - OperationLog 表的总行数: 229
+2025-06-17 14:10:49,267 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:10:49.267883
+2025-06-17 14:10:49,267 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:10:49.267883
+2025-06-17 14:10:49,267 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:10:49,273 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 229
+2025-06-17 14:10:49,276 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 10, 'registration_count': 1}}
+2025-06-17 14:10:49,276 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:12:26,770 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:12:26,771 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:12:26,772 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:12:26.772251
+2025-06-17 14:12:26,772 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:12:26.772251
+2025-06-17 14:12:26,772 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:12:26,777 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:12:26,778 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:12:26,779 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:14:42,788 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:14:42,789 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:14:42,789 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:14:42.789366
+2025-06-17 14:14:42,790 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:14:42.789366
+2025-06-17 14:14:42,790 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:14:42,793 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:14:42,795 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:14:42,795 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:30:04,510 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:30:04,511 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:30:04,511 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:30:04.511409
+2025-06-17 14:30:04,511 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:30:04.511409
+2025-06-17 14:30:04,512 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:30:04,516 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:30:04,518 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:30:04,518 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:34:39,483 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:34:39,484 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:34:39,484 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:34:39.484977
+2025-06-17 14:34:39,484 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:34:39.484977
+2025-06-17 14:34:39,484 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:34:39,485 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:34:39,486 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:34:39,486 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:34:43,553 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:34:43,554 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:34:43,554 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:34:43.554384
+2025-06-17 14:34:43,554 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:34:43.554384
+2025-06-17 14:34:43,554 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:34:43,556 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:34:43,557 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:34:43,557 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:36:32,188 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:36:32,189 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:36:32,189 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:36:32.189035
+2025-06-17 14:36:32,189 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:36:32.189035
+2025-06-17 14:36:32,189 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:36:32,191 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:36:32,191 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:36:32,192 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:46:54,719 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:46:54,719 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:46:54,719 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:46:54.719168
+2025-06-17 14:46:54,720 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:46:54.719168
+2025-06-17 14:46:54,720 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:46:54,721 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:46:54,722 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:46:54,722 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:48:01,601 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:48:01,601 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:48:01,601 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:48:01.601262
+2025-06-17 14:48:01,601 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:48:01.601262
+2025-06-17 14:48:01,601 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:48:01,604 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:48:01,605 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:48:01,605 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:48:23,044 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:48:23,045 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:48:23,045 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:48:23.045234
+2025-06-17 14:48:23,045 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:48:23.045234
+2025-06-17 14:48:23,045 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:48:23,046 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:48:23,047 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:48:23,047 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:48:37,981 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:48:37,982 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:48:37,982 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:48:37.982460
+2025-06-17 14:48:37,982 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:48:37.982460
+2025-06-17 14:48:37,982 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:48:37,983 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:48:37,984 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:48:37,984 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:49:49,014 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:49:49,014 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:49:49,014 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:49:49.014289
+2025-06-17 14:49:49,014 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:49:49.014289
+2025-06-17 14:49:49,014 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:49:49,016 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:49:49,016 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:49:49,016 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:51:37,361 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:51:37,362 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:51:37,362 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:51:37.362485
+2025-06-17 14:51:37,363 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:51:37.362485
+2025-06-17 14:51:37,363 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:51:37,364 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:51:37,364 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:51:37,365 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:52:15,964 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:52:15,965 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:52:15,965 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:52:15.965458
+2025-06-17 14:52:15,965 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:52:15.965458
+2025-06-17 14:52:15,965 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:52:15,966 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:52:15,967 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:52:15,967 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:53:34,177 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:53:34,177 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:53:34,178 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:53:34.178493
+2025-06-17 14:53:34,178 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:53:34.178493
+2025-06-17 14:53:34,178 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:53:34,180 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:53:34,180 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:53:34,180 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 14:53:55,696 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 14:53:55,696 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 14:53:55,697 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 14:53:55.696025
+2025-06-17 14:53:55,697 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 06:53:55.696025
+2025-06-17 14:53:55,697 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 14:53:55,699 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 14:53:55,700 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 14:53:55,700 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 15:05:21,072 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 15:05:21,073 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 15:05:21,073 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 15:05:21.073528
+2025-06-17 15:05:21,073 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 07:05:21.073528
+2025-06-17 15:05:21,074 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 15:05:21,076 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 15:05:21,076 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 15:05:21,076 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:21:10,472 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:21:10,473 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:21:10,474 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:21:10.474667
+2025-06-17 17:21:10,474 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:21:10.474667
+2025-06-17 17:21:10,474 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:21:10,476 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:21:10,476 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:21:10,477 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:21:28,399 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-17 17:21:28,406 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-17 17:21:28,411 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-17 17:21:28,411 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-17 17:21:28,411 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:28,411 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-17 17:21:28,411 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:28,412 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:28,412 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:28,412 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:28,412 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:28,412 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,305 - INFO - XiDian - 用户 admin 继续进行中的步骤 2 (记录 5)。
+2025-06-17 17:21:35,315 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-17 17:21:35,317 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-17 17:21:35,318 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-17 17:21:35,318 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-17 17:21:35,318 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:35,319 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:21:39,926 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:21:39,927 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:21:39,927 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:21:39.927481
+2025-06-17 17:21:39,927 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:21:39.927481
+2025-06-17 17:21:39,927 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:21:39,930 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:21:39,931 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:21:39,931 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:06,590 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:22:37,146 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:22:37,148 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:22:37,148 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:22:37.148074
+2025-06-17 17:22:37,148 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:22:37.148074
+2025-06-17 17:22:37,148 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:22:37,149 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:22:37,149 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:22:37,149 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:49:48,987 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-17 17:49:48,989 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-17 17:49:48,990 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-17 17:49:48,990 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-17 17:49:48,990 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:49:48,990 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-17 17:49:48,990 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:49:48,991 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:49:48,991 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:49:48,991 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:49:48,991 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:49:48,991 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-17 17:51:36,371 - INFO - XiDian - Saving config to saves\config\base.yaml
+2025-06-17 17:51:36,374 - INFO - XiDian - Config file saves\config\base.yaml saved
+2025-06-17 17:51:37,303 - DEBUG - XiDian - Loading embedding model local/BAAI/bge-m3
+2025-06-17 17:51:37,304 - INFO - XiDian - Loading local model `BAAI/bge-m3` from `BAAI/bge-m3` with device `cuda`
+2025-06-17 17:51:37,304 - DEBUG - XiDian - 如果没配置任何路径的话，正常情况下会自动从 Huggingface 下载模型，如果遇到下载失败，可以尝试使用 HF_MIRROR 环境变量；如果还是不行，建议手动下载到某个文件夹，比如  /models/BAAI/bge-m3 目录下；
+2025-06-17 17:51:45,343 - INFO - XiDian - Embedding model BAAI/bge-m3 loaded, self.model=HuggingFaceEmbeddings(model_name='BAAI/bge-m3', cache_folder=None, model_kwargs={'device': 'cuda'}, encode_kwargs={'normalize_embeddings': True, 'prompt_name': None}, query_encode_kwargs={}, multi_process=False, show_progress=False)
+2025-06-17 17:51:45,357 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-17 17:51:45,357 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-17 17:51:50,231 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:51:50,231 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:51:50,232 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:51:50.232052
+2025-06-17 17:51:50,232 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:51:50.232052
+2025-06-17 17:51:50,232 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:51:50,233 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:51:50,234 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:51:50,234 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:53:31,544 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:53:31,546 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:53:31,547 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:53:31.547317
+2025-06-17 17:53:31,547 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:53:31.547317
+2025-06-17 17:53:31,547 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:53:31,552 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:53:31,554 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:53:31,554 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:56:08,815 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:56:08,816 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:56:08,816 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:56:08.816568
+2025-06-17 17:56:08,816 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:56:08.816568
+2025-06-17 17:56:08,817 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:56:08,821 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:56:08,823 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:56:08,824 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 17:56:25,089 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 17:56:25,090 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 17:56:25,090 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 17:56:25.090600
+2025-06-17 17:56:25,090 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 09:56:25.090600
+2025-06-17 17:56:25,091 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 17:56:25,094 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 17:56:25,097 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 17:56:25,097 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 20:18:21,394 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 20:18:21,399 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 20:18:21,400 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 20:18:21.399493
+2025-06-17 20:18:21,400 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 12:18:21.399493
+2025-06-17 20:18:21,400 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 20:18:21,407 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 20:18:21,409 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 20:18:21,410 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-17 22:06:58,141 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-17 22:06:58,149 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-17 22:06:58,149 - DEBUG - XiDian - 当前Python本地时间: 2025-06-17 22:06:58.149167
+2025-06-17 22:06:58,149 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-17 14:06:58.149167
+2025-06-17 22:06:58,150 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-17 22:06:58,154 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-17 22:06:58,157 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-17 22:06:58,157 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-18 10:30:10,922 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 10:30:10,922 - DEBUG - XiDian - OperationLog 表的总行数: 234
+2025-06-18 10:30:10,922 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 10:30:10.922704
+2025-06-18 10:30:10,922 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 02:30:10.922704
+2025-06-18 10:30:10,922 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 10:30:10,934 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 234
+2025-06-18 10:30:10,935 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}}
+2025-06-18 10:30:10,935 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 7
+2025-06-18 10:38:49,749 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 10:38:49,750 - DEBUG - XiDian - OperationLog 表的总行数: 236
+2025-06-18 10:38:49,750 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 10:38:49.750992
+2025-06-18 10:38:49,750 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 02:38:49.750992
+2025-06-18 10:38:49,750 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 10:38:49,757 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 236
+2025-06-18 10:38:49,759 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}, '2025-06-18': {'total_operations': 2, 'registration_count': 0}}
+2025-06-18 10:38:49,760 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 8
+2025-06-18 14:29:12,401 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 14:29:12,403 - DEBUG - XiDian - OperationLog 表的总行数: 237
+2025-06-18 14:29:12,403 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 14:29:12.403670
+2025-06-18 14:29:12,403 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 06:29:12.403670
+2025-06-18 14:29:12,403 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 14:29:12,405 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 237
+2025-06-18 14:29:12,406 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}, '2025-06-18': {'total_operations': 3, 'registration_count': 0}}
+2025-06-18 14:29:12,407 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 8
+2025-06-18 14:44:17,237 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 14:44:17,240 - DEBUG - XiDian - OperationLog 表的总行数: 237
+2025-06-18 14:44:17,240 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 14:44:17.240482
+2025-06-18 14:44:17,240 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 06:44:17.240482
+2025-06-18 14:44:17,241 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 14:44:17,242 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 237
+2025-06-18 14:44:17,243 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}, '2025-06-18': {'total_operations': 3, 'registration_count': 0}}
+2025-06-18 14:44:17,244 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 8
+2025-06-18 14:51:06,379 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-18 14:51:06,632 - DEBUG - XiDian - Received query: 写一个简单的冒泡排序 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-18 14:51:37,195 - DEBUG - XiDian - Final response: 
+
+好的，让我们一步一步解释冒泡排序的实现。
+
+1. **获取用户输入**：从用户处获取数组。
+2. **确定数组长度**：计算数组的长度以确定循环的范围。
+3. **外层循环**：控制排序的轮次，n-1轮。
+4. **内层循环**：是比较并交换相邻元素。
+5. **比较和交换**：如果当前元素大于下一个元素，交换它们。
+
+以下是Python代码实现：
+
+```python
+arr = list(map(int, input().split()))
+n = len(arr)
+
+for i in range(n-1):
+    for j in range(0, n - i -1):
+        if arr[j] > arr[j+1]:
+            arr[j], arr[j+1] = arr[j+1], arr[j]
+
+print(arr)
+```
+
+运行代码，输入测试用例，即可输出排序后的数组。
+
+例如：
+输入：54 26 98 35
+输出：26 35 54 98
+
+这个代码通过重复遍历数组，逐步交换相邻元素，最终将整个数组按升序排序。整个过程通过不断交换大的元素并逐步将其“冒泡”到数组的正确位置，从而完成排序。
+2025-06-18 14:51:37,195 - DEBUG - XiDian - Final reasoning response: 好的，我现在需要写一个简单的冒泡排序。冒泡排序是一种比较基础的排序算法，虽然时间复杂度不是最优的，但它容易理解和实现。我应该从哪里开始呢？
+
+首先，我知道冒泡排序的基本思想是 repeatedly swapping adjacent elements if they are in the wrong order. 也就是说，算法会多次遍历数组，逐个比较相邻的元素，如果发现当前的元素大于后面的元素，就交换它们。这个过程会持续进行，直到整个数组都被排序好了。
+
+那我需要一个数组作为输入，对吗？比如，我可以创建一个包含几个数字的数组，然后对其进行排序。假设用户提供了数组，我需要先获取这个数组，然后应用冒泡排序的算法。
+
+接下来，我需要考虑算法的具体步骤。冒泡排序通常需要两层循环。外层循环负责控制整个数组的长度，确保所有元素都被检查过。内层循环则负责比较相邻的元素，并进行交换。
+
+那么，外层循环应该运行多少次呢？假设数组有n个元素，通常来说，外层循环应该运行n-1次。因为最大的元素会在第一次循环中“冒泡”到数组末尾，第二大的元素在第二次循环中就位，以此类推，直到数组已经排序完毕。
+
+内层循环则要比较剩下的未排序部分。每次外层循环执行之后，数组的末尾已经有一个已经确定的元素，所以在每轮的内层循环中，我可以排除掉最后一个已经排序好的元素。
+
+现在，我需要考虑如何交换元素。如果当前元素大于后面的元素，就要交换它们。这可以通过简单的if语句来实现。
+
+举个例子，如果数组是[54, 26, 98, 35]，我需要一步步来看。第一轮外层循环中，我对比54和26，发现54>26，所以交换，得到[26, 54, 98, 35]。然后比较54和98，98已经更大，所以不需要交换。再比较98和35，交换得到[26, 54, 35, 98]。第一轮完成后，最大的元素98已经到位。
+
+然后进入第二轮外层循环，数组变为[26,54,35,98]，此时，外层循环让内层循环只比较前三项。第二轮中，26和54不需要交换。然后54和35比较，54>35，交换得到[26,35,54,98]。第二轮完成后，数组是[26,35,54,98]，剩下的35已经在正确位置。
+
+第三轮外层循环，数组变为[26,35,54,98]，此时内层循环需要比较前两项。26小于35，不需要交换，第三轮完成后数组已经排序完毕，无需更多交换。
+
+所以，考虑这些步骤，我可以写出冒泡排序的代码结构。
+
+现在，我将把这些步骤转换成Python代码。首先，获取用户输入的数组。假设用户会输入，例如，输入数字用空格分隔，我可以使用input().split()来获取字符串，然后转换成整型列表。
+
+然后，将数组的长度赋值给n，这样 outer loop 的循环次数就可以正确控制。
+
+接下来，外层循环从0到n-2，包含内部循环，从0到n-i-1。这样，每一轮外层循环都会确定一个元素的位置，后面的元素已经排好顺序。
+
+内层循环中，比较当前元素和下个元素，如果当前元素大于下一个元素，就交换两者的值。
+
+交换可以通过两个变量来实现，即temp = arr[i], arr[i] = arr[i+1], arr[i+1] = temp，或者直接更简洁的方式，如arr[i], arr[i+1] = arr[i+1], arr[i]。
+
+现在，测试一下代码是否正确。假设示例输入是“54 26 98 35”：
+
+输入数组是[54,26,98,35]。运行冒泡排序算法后，应该输出排序后的数组[26,35,54,98]。
+
+现在，检查代码是否能正确运行，特别是交换部分和循环次数是否正确。在Python中，需要注意切片是按索引计算的，所以循环的范围要正确。
+
+那么，编写代码：
+
+- 获取用户输入：arr = list(map(int, input().split()))
+- 确定长度：n = len(arr)
+- 外层循环：for i in range(n-1):
+- 内层循环：for j in range(0, n - i - 1):
+- 比较和交换
+- 最终输出arr
+
+看来没有问题。现在我可以写出完整的代码：
+
+2025-06-18 14:51:37,539 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-18 14:51:50,159 - DEBUG - XiDian - {'query': '请用一个很短的句子关于下面的对话内容的主题起一个名字，不要带标点符号：\n\n问题: 写一个简单的冒泡排序\n\n回复: \n\n好的，让我们一步一步解释冒泡排序的实现。\n\n1. **获取用户输入**：从用户处获取数组。\n2. **确定数组长度**：计算数组的长度以确定循环的范围。\n3. **外层循环**：控制排序的轮次，n-1轮。\n4. **内层循环**：是比较并交换相邻元素。\n5. **比较和交换**：如果当前元素大于下一个元素，交换它们。\n\n以下是Python代码实现：\n\n```python\narr = list(map(int, input().split()))\nn = len(arr)\n\nfor i in range(n-1):\n    for j in range(0, n - i -1):\n        if arr[j] > arr[j+1]:\n            arr[j], arr[j+1] = arr[j+1], arr[j]\n\nprint(arr)\n```\n\n运行代码，输入测试用例，即可输出排序后的数组。\n\n例如：\n输入：54 26 98 35\n输出：26 35 54 98\n\n这个代码通过重复遍历数组，逐步交换相邻元素，最终将整个数组按升序排序。整个过程通过不断交换大的元素并逐步将其“冒泡”到数组的正确位置，从而完成排序。，主题是（一句话）：', 'response': '\n\n名字：冒泡排序'}
+2025-06-18 17:22:34,297 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 17:22:34,298 - DEBUG - XiDian - OperationLog 表的总行数: 239
+2025-06-18 17:22:34,298 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 17:22:34.298323
+2025-06-18 17:22:34,298 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 09:22:34.298323
+2025-06-18 17:22:34,298 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 17:22:34,340 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 239
+2025-06-18 17:22:34,340 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}, '2025-06-18': {'total_operations': 5, 'registration_count': 1}}
+2025-06-18 17:22:34,341 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 8
+2025-06-18 17:25:51,409 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 17:25:51,409 - DEBUG - XiDian - OperationLog 表的总行数: 239
+2025-06-18 17:25:51,409 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 17:25:51.409972
+2025-06-18 17:25:51,410 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 09:25:51.409972
+2025-06-18 17:25:51,410 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 17:25:51,411 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 239
+2025-06-18 17:25:51,412 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}, '2025-06-18': {'total_operations': 5, 'registration_count': 1}}
+2025-06-18 17:25:51,412 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 8
+2025-06-18 17:25:57,625 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-18 17:25:57,629 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-18 17:25:57,631 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-18 17:25:57,632 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 17:25:57,633 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,959 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-18 18:31:39,960 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-18 18:31:39,961 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-18 18:31:39,961 - DEBUG - XiDian - 步骤 2: 找到记录 5，状态 'in_progress', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 18:31:39,962 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-18 19:29:50,624 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-18 19:29:50,625 - DEBUG - XiDian - OperationLog 表的总行数: 239
+2025-06-18 19:29:50,625 - DEBUG - XiDian - 当前Python本地时间: 2025-06-18 19:29:50.625512
+2025-06-18 19:29:50,625 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-18 11:29:50.625512
+2025-06-18 19:29:50,625 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-18 19:29:50,627 - DEBUG - XiDian - 直接从数据库获取所有 OperationLog 记录数: 239
+2025-06-18 19:29:50,627 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-07': {'total_operations': 142, 'registration_count': 0}, '2025-06-08': {'total_operations': 5, 'registration_count': 0}, '2025-06-10': {'total_operations': 61, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-15': {'total_operations': 7, 'registration_count': 0}, '2025-06-16': {'total_operations': 3, 'registration_count': 0}, '2025-06-17': {'total_operations': 15, 'registration_count': 3}, '2025-06-18': {'total_operations': 5, 'registration_count': 1}}
+2025-06-18 19:29:50,627 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 8

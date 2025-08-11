@@ -1,0 +1,50 @@
+2025-06-03 15:50:33,096 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 15:50:33,644 - INFO - Yuxi - Database tables created/checked
+2025-06-03 15:50:35,377 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 15:50:35,377 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 15:50:39,447 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 15:53:07,381 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:53:07,386 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:53:07,387 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:53:07,423 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:53:07,423 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:53:10,951 - INFO - Yuxi - 用户 admin 首次开始步骤 1，创建新记录。
+2025-06-03 15:53:10,961 - DEBUG - Yuxi - 返回给前端的步骤 1 记录数据: {'id': 13, 'status': 'in_progress', 'score': 0.0, 'answers': '核心家庭', 'start_time': '2025-06-03T15:53:10.951244', 'end_time': None, 'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'explanation': '正确答案是“核心家庭”。图片描绘了一个由父母和他们的孩子组成的家庭单位，这是核心家庭的定义。选项B，“视角转换”，是一个文学术语，指改变观点。选项C，“新闻节目”，指报道时事的广播。选项D，“大家庭”，包括核心家庭以外的亲属，如祖父母、姑姑、叔叔和堂兄弟姐妹，这些都没有在图片中显示。'}
+2025-06-03 15:53:12,668 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:53:12,668 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:53:12,673 - DEBUG - Yuxi - 步骤 1: 找到记录 13，状态 'in_progress', 分数 0.0
+2025-06-03 15:53:12,673 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:53:12,673 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:56:52,834 - INFO - Yuxi - 用户 admin 请求完成实验记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'score': 95.0}
+2025-06-03 15:56:52,848 - INFO - Yuxi - 用户 admin 成功完成实验记录 13，得分: 0.0
+2025-06-03 15:56:54,649 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:56:54,649 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:56:54,649 - DEBUG - Yuxi - 步骤 1: 找到记录 13，状态 'in_progress', 分数 0.0
+2025-06-03 15:56:54,649 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:56:54,649 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:57:01,801 - INFO - Yuxi - 用户 admin 重新开始步骤 1 (记录ID: 13)。
+2025-06-03 15:57:01,804 - DEBUG - Yuxi - 返回给前端的步骤 1 记录数据: {'id': 13, 'status': 'in_progress', 'score': 0.0, 'answers': '核心家庭', 'start_time': '2025-06-03T15:53:10.951244', 'end_time': None, 'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'explanation': '正确答案是“核心家庭”。图片描绘了一个由父母和他们的孩子组成的家庭单位，这是核心家庭的定义。选项B，“视角转换”，是一个文学术语，指改变观点。选项C，“新闻节目”，指报道时事的广播。选项D，“大家庭”，包括核心家庭以外的亲属，如祖父母、姑姑、叔叔和堂兄弟姐妹，这些都没有在图片中显示。'}
+2025-06-03 15:57:03,495 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:57:03,495 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:57:03,495 - DEBUG - Yuxi - 步骤 1: 找到记录 13，状态 'in_progress', 分数 0.0
+2025-06-03 15:57:03,507 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:57:03,507 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:57:04,045 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:57:04,046 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:57:04,047 - DEBUG - Yuxi - 步骤 1: 找到记录 13，状态 'in_progress', 分数 0.0
+2025-06-03 15:57:04,048 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:57:04,048 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:57:06,354 - INFO - Yuxi - 用户 admin 重新开始步骤 1 (记录ID: 13)。
+2025-06-03 15:57:06,358 - DEBUG - Yuxi - 返回给前端的步骤 1 记录数据: {'id': 13, 'status': 'in_progress', 'score': 0.0, 'answers': '核心家庭', 'start_time': '2025-06-03T15:53:10.951244', 'end_time': None, 'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'explanation': '正确答案是“核心家庭”。图片描绘了一个由父母和他们的孩子组成的家庭单位，这是核心家庭的定义。选项B，“视角转换”，是一个文学术语，指改变观点。选项C，“新闻节目”，指报道时事的广播。选项D，“大家庭”，包括核心家庭以外的亲属，如祖父母、姑姑、叔叔和堂兄弟姐妹，这些都没有在图片中显示。'}
+2025-06-03 15:57:07,326 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:57:07,328 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:57:07,328 - DEBUG - Yuxi - 步骤 1: 找到记录 13，状态 'in_progress', 分数 0.0
+2025-06-03 15:57:07,329 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:57:07,329 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 15:59:41,182 - INFO - Yuxi - 用户 admin 请求完成实验记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'score': 95.0}
+2025-06-03 15:59:41,188 - INFO - Yuxi - 用户 admin 成功完成实验记录 13，得分: 0.0
+2025-06-03 15:59:43,050 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 15:59:43,052 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 15:59:43,052 - DEBUG - Yuxi - 步骤 1: 找到记录 13，状态 'in_progress', 分数 0.0
+2025-06-03 15:59:43,052 - DEBUG - Yuxi - 步骤 2: 找到记录 10，状态 'completed', 分数 95.0
+2025-06-03 15:59:43,052 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0

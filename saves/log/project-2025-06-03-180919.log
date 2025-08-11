@@ -1,0 +1,180 @@
+2025-06-03 18:09:19,209 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 18:09:19,776 - INFO - Yuxi - Database tables created/checked
+2025-06-03 18:09:22,426 - DEBUG - Yuxi - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-03 18:09:22,517 - INFO - Yuxi - Successfully connected to Milvus at http://localhost:19530
+2025-06-03 18:09:22,518 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 18:09:22,518 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 18:09:26,665 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 18:09:43,656 - DEBUG - Yuxi - Create database 1
+2025-06-03 18:09:55,393 - DEBUG - Yuxi - Delete database kb_7bf98f0b
+2025-06-03 18:10:05,299 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:10:05,301 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:10:05,303 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:10:05,303 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:10:05,304 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'in_progress', 分数 0.0
+2025-06-03 18:10:27,614 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 2
+2025-06-03 18:10:27,615 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:10:27,615 - DEBUG - Yuxi - 步骤 1: 找到记录 4，状态 'completed', 分数 100.0
+2025-06-03 18:10:27,615 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:27,615 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:44,879 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:10:44,880 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:10:44,881 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:44,881 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:44,881 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:52,792 - INFO - Yuxi - 用户 小刘 首次开始实验 1 的步骤 2，创建新记录: 6
+2025-06-03 18:10:55,155 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:10:55,156 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:10:55,156 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:55,156 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:10:55,156 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:58,652 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:10:58,653 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:10:58,653 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:10:58,653 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:10:58,653 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:12:53,252 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:12:53,254 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:12:53,255 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:12:53,255 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:12:53,255 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:11,068 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:11,069 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:11,070 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:11,070 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:11,070 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:13,533 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:13,534 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:13,534 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:13,534 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:13,534 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:23,533 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:23,534 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:23,534 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:23,534 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:23,534 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:27,085 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:27,087 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:27,088 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:27,088 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:27,088 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:28,406 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:28,406 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:28,407 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:28,407 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:28,407 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:30,076 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:30,077 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:30,078 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:30,078 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:30,078 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:35,648 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:35,649 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:35,650 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:35,650 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:35,651 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:48,112 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:13:48,112 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:13:48,113 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:13:48,113 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:13:48,113 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:09,306 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:09,307 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:09,308 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:09,308 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:09,308 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:20,775 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:20,777 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:20,778 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:20,778 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:20,778 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:33,511 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:33,512 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:33,513 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:33,513 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:33,513 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:42,888 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:42,889 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:42,890 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:42,890 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:42,890 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:45,733 - INFO - Yuxi - 用户 小刘 首次开始实验 1 的步骤 1，创建新记录: 7
+2025-06-03 18:14:47,591 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:47,592 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:47,593 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:47,593 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:47,593 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:49,010 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:49,011 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:49,012 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:49,012 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:49,012 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:14:55,735 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:14:55,736 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:14:55,736 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:55,736 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:14:55,736 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:15:06,352 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:15:06,352 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:15:06,353 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:15:06,353 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:15:06,353 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:15:09,278 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:15:09,279 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:15:09,279 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:15:09,279 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:15:09,279 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:15:46,074 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:15:46,075 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:15:46,075 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:15:46,075 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:15:46,076 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:17:19,848 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:17:19,849 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:17:19,849 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:19,849 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:19,849 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:17:23,670 - INFO - Yuxi - 用户 小刘 继续进行中的步骤 1 (记录 7)。
+2025-06-03 18:17:23,998 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:17:23,998 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:17:23,999 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:23,999 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:23,999 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:17:24,995 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:17:24,996 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:17:24,997 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:24,997 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:24,997 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:17:43,626 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:17:43,627 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:17:43,628 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:17:43,628 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:17:43,629 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'in_progress', 分数 0.0
+2025-06-03 18:17:45,850 - INFO - Yuxi - 用户 admin 继续进行中的步骤 3 (记录 3)。
+2025-06-03 18:17:46,162 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:17:46,163 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:17:46,163 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:17:46,163 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:17:46,163 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'in_progress', 分数 0.0
+2025-06-03 18:20:31,670 - INFO - Yuxi - 用户 admin 请求完成实验步骤记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 3, 'score': 60.0}
+2025-06-03 18:20:31,677 - INFO - Yuxi - 用户 admin 成功完成实验步骤记录 3 (步骤: 3)，得分: 60.0
+2025-06-03 18:20:32,847 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-03 18:20:32,848 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:20:32,849 - DEBUG - Yuxi - 步骤 1: 找到记录 1，状态 'completed', 分数 95.0
+2025-06-03 18:20:32,849 - DEBUG - Yuxi - 步骤 2: 找到记录 2，状态 'completed', 分数 20.0
+2025-06-03 18:20:32,849 - DEBUG - Yuxi - 步骤 3: 找到记录 3，状态 'completed', 分数 60.0
+2025-06-03 18:20:49,782 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 4
+2025-06-03 18:20:49,782 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:20:49,784 - DEBUG - Yuxi - 步骤 1: 找到记录 7，状态 'in_progress', 分数 0.0
+2025-06-03 18:20:49,785 - DEBUG - Yuxi - 步骤 2: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-03 18:20:49,785 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:21:05,827 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 3
+2025-06-03 18:21:05,828 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:21:05,829 - DEBUG - Yuxi - 步骤 1: 找到记录 5，状态 'completed', 分数 90.0
+2025-06-03 18:21:05,829 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:21:05,829 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:21:19,959 - DEBUG - Yuxi - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 2
+2025-06-03 18:21:19,960 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 18:21:19,960 - DEBUG - Yuxi - 步骤 1: 找到记录 4，状态 'completed', 分数 100.0
+2025-06-03 18:21:19,960 - DEBUG - Yuxi - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-03 18:21:19,960 - DEBUG - Yuxi - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0

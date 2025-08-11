@@ -1,0 +1,17 @@
+2025-05-30 16:43:24,631 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-30 16:43:25,163 - INFO - Yuxi - Database tables created/checked
+2025-05-30 16:43:27,009 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-30 16:43:27,009 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-30 16:43:31,384 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-30 16:43:37,651 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-05-30 16:43:37,657 - DEBUG - Yuxi - 实验 1 共有 2 个步骤。
+2025-05-30 16:43:37,657 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=2
+2025-05-30 16:43:37,658 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-05-30 16:43:37,658 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending。
+2025-05-30 16:43:37,658 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-05-30 16:43:37,658 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-05-30 16:43:37,658 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering。
+2025-05-30 16:43:37,658 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=0.0
+2025-05-30 16:43:37,658 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 4

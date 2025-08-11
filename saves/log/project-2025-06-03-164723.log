@@ -1,0 +1,8 @@
+2025-06-03 16:47:23,425 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 16:47:23,945 - INFO - Yuxi - Database tables created/checked
+2025-06-03 16:47:25,752 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 16:47:25,752 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 16:47:30,300 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 16:47:33,723 - DEBUG - Yuxi - 进入 get_experiment_overall_record_details，实验ID: 1, 用户ID: 1
+2025-06-03 16:47:33,726 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-03 16:47:33,727 - DEBUG - Yuxi - 步骤 1: 未找到对应记录，默认为 'not_started', 分数 0.0

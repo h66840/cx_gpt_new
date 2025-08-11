@@ -1,0 +1,318 @@
+2025-06-15 16:13:35,560 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-15 16:13:36,149 - INFO - XiDian - Database tables created/checked
+2025-06-15 16:13:39,294 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-15 16:13:39,404 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-15 16:13:39,404 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-15 16:13:39,405 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-15 16:13:43,306 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-15 16:13:55,391 - INFO - XiDian - 管理员 admin 请求获取活动日志统计。
+2025-06-15 16:13:55,394 - DEBUG - XiDian - OperationLog 表的总行数: 1052
+2025-06-15 16:13:55,395 - DEBUG - XiDian - 当前Python本地时间: 2025-06-15 16:13:55.395152
+2025-06-15 16:13:55,395 - DEBUG - XiDian - 当前Python UTC时间: 2025-06-15 08:13:55.395152
+2025-06-15 16:13:55,395 - DEBUG - XiDian - 当前Python本地时区: 中国标准时间
+2025-06-15 16:13:55,395 - DEBUG - XiDian - 计算的 UTC 日期范围 (用于数据库查询 - 扩展): start_date_utc_query=2025-05-26, end_date_utc_query=2025-06-20
+2025-06-15 16:13:55,397 - DEBUG - XiDian - 直接从数据库获取的原始 OperationLog 记录数 (前100条): 100
+2025-06-15 16:13:55,397 - DEBUG - XiDian - --- 直接获取的原始记录详情 (前100条) ---
+2025-06-15 16:13:55,397 - DEBUG - XiDian -   ID: 1052, Timestamp: 2025-06-15 06:17:58 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -   ID: 1051, Timestamp: 2025-06-15 06:17:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -   ID: 1050, Timestamp: 2025-06-15 05:37:50 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -   ID: 1049, Timestamp: 2025-06-15 03:07:00 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-15
+2025-06-15 16:13:55,397 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-15
+2025-06-15 16:13:55,398 - DEBUG - XiDian -   ID: 1048, Timestamp: 2025-06-14 02:27:39 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-14
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-14
+2025-06-15 16:13:55,398 - DEBUG - XiDian -   ID: 1044, Timestamp: 2025-06-10 12:51:36 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -   ID: 1045, Timestamp: 2025-06-10 12:51:36 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -   ID: 1046, Timestamp: 2025-06-10 12:51:36 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -   ID: 1047, Timestamp: 2025-06-10 12:51:36 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,398 - DEBUG - XiDian -   ID: 1041, Timestamp: 2025-06-10 12:51:35 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,398 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -   ID: 1042, Timestamp: 2025-06-10 12:51:35 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -   ID: 1043, Timestamp: 2025-06-10 12:51:35 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -   ID: 1034, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -   ID: 1035, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -   ID: 1036, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -   ID: 1037, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,399 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -   ID: 1038, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -   ID: 1039, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -   ID: 1040, Timestamp: 2025-06-10 08:06:27 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,400 - DEBUG - XiDian -   ID: 990, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,400 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -   ID: 991, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -   ID: 992, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -   ID: 993, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -   ID: 994, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -   ID: 995, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,401 - DEBUG - XiDian -   ID: 996, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,401 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 997, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 998, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 999, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 1000, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 1001, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 1002, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,402 - DEBUG - XiDian -   ID: 1003, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -   ID: 1004, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -   ID: 1005, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -   ID: 1006, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -   ID: 1007, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,403 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -   ID: 1008, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -   ID: 1009, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -   ID: 1010, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -   ID: 1011, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -   ID: 1012, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -   ID: 1013, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,404 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1014, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1015, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1016, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1017, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1018, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1019, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,405 - DEBUG - XiDian -   ID: 1020, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,405 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -   ID: 1021, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -   ID: 1022, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -   ID: 1023, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -   ID: 1024, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -   ID: 1025, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -   ID: 1026, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,406 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1027, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1028, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1029, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1030, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1031, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1032, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,407 - DEBUG - XiDian -   ID: 1033, Timestamp: 2025-06-10 08:06:22 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,408 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,408 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,408 - DEBUG - XiDian -   ID: 946, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,408 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,408 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,408 - DEBUG - XiDian -   ID: 947, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,408 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,408 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 948, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 949, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 950, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 951, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 952, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 953, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,409 - DEBUG - XiDian -   ID: 954, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,409 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -   ID: 955, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -   ID: 956, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -   ID: 957, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -   ID: 958, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -   ID: 959, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -   ID: 960, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,410 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -   ID: 961, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -   ID: 962, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -   ID: 963, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -   ID: 964, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -   ID: 965, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,411 - DEBUG - XiDian -   ID: 966, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,412 - DEBUG - XiDian -   ID: 967, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,412 - DEBUG - XiDian -   ID: 968, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,412 - DEBUG - XiDian -   ID: 969, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,412 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -   ID: 970, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -   ID: 971, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -   ID: 972, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -   ID: 973, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -   ID: 974, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -   ID: 975, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,413 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -   ID: 976, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -   ID: 977, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -   ID: 978, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -   ID: 979, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -   ID: 980, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -   ID: 981, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,414 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,415 - DEBUG - XiDian -   ID: 982, Timestamp: 2025-06-10 08:06:21 (Type: <class 'datetime.datetime'>), Operation: '登录'
+2025-06-15 16:13:55,415 - DEBUG - XiDian -     -> Casted UTC Date in Python: 2025-06-10
+2025-06-15 16:13:55,415 - DEBUG - XiDian -     -> Local Date from Python conversion: 2025-06-10
+2025-06-15 16:13:55,415 - DEBUG - XiDian - ---------------------------------
+2025-06-15 16:13:55,415 - DEBUG - XiDian - Python 内存中按本地日期聚合后的结果: {'2025-06-15': {'total_operations': 4, 'registration_count': 0}, '2025-06-14': {'total_operations': 1, 'registration_count': 0}, '2025-06-10': {'total_operations': 95, 'registration_count': 0}}
+2025-06-15 16:13:55,415 - DEBUG - XiDian - Python 内存中聚合到的本地天数: 3

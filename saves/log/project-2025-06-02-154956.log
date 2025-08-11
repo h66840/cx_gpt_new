@@ -1,0 +1,88 @@
+2025-06-02 15:49:56,237 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-02 15:49:56,776 - INFO - Yuxi - Database tables created/checked
+2025-06-02 15:49:58,761 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-02 15:49:58,761 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-02 15:50:02,958 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-02 15:50:09,508 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 4
+2025-06-02 15:50:09,512 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 15:50:09,512 - INFO - Yuxi - 用户 小刘 在实验 1 找到最新记录: ID=3, 整体状态=completed, 当前步骤ID=2
+2025-06-02 15:50:09,515 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 15:50:09,515 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 15:50:09,515 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:09,515 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 15:50:09,516 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 COMPLETED，设置为 completed, score=2.0。
+2025-06-02 15:50:09,516 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='completed', score=2.0
+2025-06-02 15:50:09,516 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 15:50:09,516 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 15:50:09,516 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:09,516 - INFO - Yuxi - 用户 小刘 获取实验 1 的最新记录详情成功，记录ID: 3
+2025-06-02 15:50:13,464 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 4
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 15:50:13,465 - INFO - Yuxi - 用户 小刘 在实验 1 找到最新记录: ID=3, 整体状态=completed, 当前步骤ID=2
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 COMPLETED，设置为 completed, score=2.0。
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='completed', score=2.0
+2025-06-02 15:50:13,465 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 15:50:13,466 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 15:50:13,466 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:13,466 - INFO - Yuxi - 用户 小刘 获取实验 1 的最新记录详情成功，记录ID: 3
+2025-06-02 15:50:14,974 - INFO - Yuxi - 用户 小刘 重新开始实验 基于agent的视觉推理实验，创建新记录，当前步骤ID为: 1
+2025-06-02 15:50:16,272 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 4
+2025-06-02 15:50:16,274 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 15:50:16,274 - INFO - Yuxi - 用户 小刘 在实验 1 找到最新记录: ID=7, 整体状态=in_progress, 当前步骤ID=1
+2025-06-02 15:50:16,274 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 步骤 1: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 15:50:16,275 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:16,275 - INFO - Yuxi - 用户 小刘 获取实验 1 的最新记录详情成功，记录ID: 7
+2025-06-02 15:50:17,497 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 4
+2025-06-02 15:50:17,498 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 15:50:17,498 - INFO - Yuxi - 用户 小刘 在实验 1 找到最新记录: ID=7, 整体状态=in_progress, 当前步骤ID=1
+2025-06-02 15:50:17,498 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 15:50:17,498 - DEBUG - Yuxi - 步骤 1: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 15:50:17,498 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 15:50:17,498 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 15:50:17,498 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 15:50:17,499 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:17,499 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 15:50:17,499 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 15:50:17,499 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:50:17,499 - INFO - Yuxi - 用户 小刘 获取实验 1 的最新记录详情成功，记录ID: 7
+2025-06-02 15:53:47,503 - INFO - Yuxi - 用户 小刘 请求完成实验记录，数据: {'user_id': 4, 'experiment_id': 1, 'current_step_id': None, 'score': 1.0}
+2025-06-02 15:53:47,510 - INFO - Yuxi - 用户 小刘 成功完成实验记录 7，得分: 1.0
+2025-06-02 15:53:54,709 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 4
+2025-06-02 15:53:54,711 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 15:53:54,712 - INFO - Yuxi - 用户 小刘 在实验 1 找到最新记录: ID=7, 整体状态=completed, 当前步骤ID=1
+2025-06-02 15:53:54,712 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 15:53:54,712 - DEBUG - Yuxi - 步骤 1: 匹配 record.current_step_id 且 record.status 为 COMPLETED，设置为 completed, score=1.0。
+2025-06-02 15:53:54,713 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='completed', score=1.0
+2025-06-02 15:53:54,713 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 15:53:54,713 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 15:53:54,713 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:53:54,713 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 15:53:54,713 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 15:53:54,714 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 15:53:54,714 - INFO - Yuxi - 用户 小刘 获取实验 1 的最新记录详情成功，记录ID: 7

@@ -1,0 +1,32 @@
+2025-05-30 17:01:50,515 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-30 17:01:51,007 - INFO - Yuxi - Database tables created/checked
+2025-05-30 17:01:52,661 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-30 17:01:52,662 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-30 17:01:56,828 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-30 17:02:01,153 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 2
+2025-05-30 17:02:01,160 - DEBUG - Yuxi - 实验 1 共有 2 个步骤。
+2025-05-30 17:02:01,160 - INFO - Yuxi - 用户 小明 在实验 1 找到最新记录: ID=2, 整体状态=in_progress, 当前步骤ID=1
+2025-05-30 17:02:01,162 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-05-30 17:02:01,162 - DEBUG - Yuxi - 步骤 1: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-05-30 17:02:01,162 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='answering', score=99.0
+2025-05-30 17:02:01,162 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-05-30 17:02:01,162 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-05-30 17:02:01,162 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-05-30 17:02:01,162 - INFO - Yuxi - 用户 小明 获取实验 1 的最新记录详情成功，记录ID: 2
+2025-05-30 17:02:02,923 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 2
+2025-05-30 17:02:02,924 - DEBUG - Yuxi - 实验 1 共有 2 个步骤。
+2025-05-30 17:02:02,926 - INFO - Yuxi - 用户 小明 在实验 1 找到最新记录: ID=2, 整体状态=in_progress, 当前步骤ID=1
+2025-05-30 17:02:02,926 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-05-30 17:02:02,926 - DEBUG - Yuxi - 步骤 1: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-05-30 17:02:02,926 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='answering', score=99.0
+2025-05-30 17:02:02,926 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-05-30 17:02:02,926 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-05-30 17:02:02,926 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-05-30 17:02:02,926 - INFO - Yuxi - 用户 小明 获取实验 1 的最新记录详情成功，记录ID: 2
+2025-05-30 17:02:27,155 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-05-30 17:02:28,480 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-05-30 17:02:28,711 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3

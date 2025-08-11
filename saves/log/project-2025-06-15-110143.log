@@ -1,0 +1,32 @@
+2025-06-15 11:01:43,363 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-15 11:01:44,438 - INFO - XiDian - Database tables created/checked
+2025-06-15 11:01:49,395 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-15 11:01:49,521 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-15 11:01:49,521 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-15 11:01:49,521 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-15 11:02:21,303 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-15 11:07:11,175 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 11
+2025-06-15 11:07:11,186 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-15 11:07:11,189 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,189 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,189 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,189 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,189 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,189 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,190 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,190 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,191 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:11,191 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,863 - INFO - XiDian - 用户 7 首次开始实验 1 的步骤 6，创建新记录: 6
+2025-06-15 11:07:22,870 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 11
+2025-06-15 11:07:22,873 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-15 11:07:22,874 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,874 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,874 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,875 - DEBUG - XiDian - 步骤 4: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,875 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,875 - DEBUG - XiDian - 步骤 6: 找到记录 6，状态 'in_progress', 分数 0.0
+2025-06-15 11:07:22,875 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,875 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,875 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-15 11:07:22,879 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0

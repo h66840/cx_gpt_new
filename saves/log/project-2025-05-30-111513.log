@@ -1,0 +1,5 @@
+2025-05-30 11:15:13,064 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-30 11:15:14,147 - INFO - Yuxi - Database tables created/checked
+2025-05-30 11:15:17,842 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-30 11:15:17,842 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-30 11:15:51,491 - INFO - Yuxi - WebSearcher initialized with Tavily client

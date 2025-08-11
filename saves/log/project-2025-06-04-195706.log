@@ -1,0 +1,5 @@
+2025-06-04 19:57:06,911 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-04 19:57:08,340 - INFO - XiDian - Database tables created/checked
+2025-06-04 19:57:17,097 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-04 19:57:27,142 - ERROR - XiDian - Failed to connect to Milvus: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>，请检查 milvus 的容器是否正常运行。
+2025-06-04 19:57:27,142 - ERROR - XiDian - 如果已退出，请重新启动 `docker restart milvus-standalone-dev`。

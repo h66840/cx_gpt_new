@@ -1,0 +1,7 @@
+2025-06-04 11:38:38,270 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-04 11:38:38,807 - INFO - Yuxi - Database tables created/checked
+2025-06-04 11:38:41,198 - DEBUG - Yuxi - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-04 11:38:41,312 - INFO - Yuxi - Successfully connected to Milvus at http://localhost:19530
+2025-06-04 11:38:41,314 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-04 11:38:41,314 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-04 11:38:44,981 - INFO - Yuxi - WebSearcher initialized with Tavily client

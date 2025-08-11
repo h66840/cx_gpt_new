@@ -1,0 +1,7 @@
+2025-06-10 16:18:10,425 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-10 16:18:10,988 - INFO - XiDian - Database tables created/checked
+2025-06-10 16:18:13,540 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-10 16:18:13,603 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-10 16:18:13,604 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-10 16:18:13,604 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-10 16:18:17,565 - INFO - XiDian - WebSearcher initialized with Tavily client

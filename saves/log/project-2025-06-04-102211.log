@@ -1,0 +1,5 @@
+2025-06-04 10:22:11,999 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-04 10:22:13,060 - INFO - Yuxi - Database tables created/checked
+2025-06-04 10:22:21,171 - DEBUG - Yuxi - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-04 10:22:31,382 - ERROR - Yuxi - Failed to connect to Milvus: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>，请检查 milvus 的容器是否正常运行。
+2025-06-04 10:22:31,383 - ERROR - Yuxi - 如果已退出，请重新启动 `docker restart milvus-standalone-dev`。

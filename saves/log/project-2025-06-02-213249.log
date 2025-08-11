@@ -1,0 +1,21 @@
+2025-06-02 21:32:49,796 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-02 21:32:50,434 - INFO - Yuxi - Database tables created/checked
+2025-06-02 21:32:52,426 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-02 21:32:52,426 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-02 21:32:57,981 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-02 21:38:28,169 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 4
+2025-06-02 21:38:28,177 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 21:38:28,180 - INFO - Yuxi - 用户 小刘 在实验 1 找到最新记录: ID=9, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 21:38:28,183 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 21:38:28,183 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 21:38:28,183 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 21:38:28,183 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 21:38:28,184 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 21:38:28,184 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 21:38:28,184 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 21:38:28,184 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 21:38:28,184 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 21:38:28,184 - INFO - Yuxi - 用户 小刘 获取实验 1 的最新记录详情成功，记录ID: 9

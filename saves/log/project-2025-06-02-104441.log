@@ -1,0 +1,259 @@
+2025-06-02 10:44:41,494 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-02 10:44:42,051 - INFO - Yuxi - Database tables created/checked
+2025-06-02 10:44:43,802 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-02 10:44:43,802 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-02 10:44:48,347 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-02 10:44:50,881 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:44:50,888 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:44:50,888 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=1
+2025-06-02 10:44:50,890 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:44:50,890 - DEBUG - Yuxi - 步骤 1: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:44:50,890 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:44:50,890 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:44:50,890 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 10:44:50,891 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:44:50,891 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:44:50,891 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (1)，设置为 pending, score=0.0。
+2025-06-02 10:44:50,891 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:44:50,891 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:01,352 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验，更新当前步骤ID为: 2
+2025-06-02 10:45:02,809 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:02,811 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:02,811 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:02,812 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:02,812 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:05,829 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:05,830 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:05,830 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:05,831 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:17,198 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:17,198 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:17,198 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:23,819 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-02 10:45:28,851 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:28,853 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:28,853 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:45:28,853 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:28,854 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:45:28,855 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:28,855 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:44,627 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验，更新当前步骤ID为: 3
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:45,894 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:45,894 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:45,894 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:47,004 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:47,004 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:47,011 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:45:57,018 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验，更新当前步骤ID为: 3
+2025-06-02 10:45:58,270 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:45:58,273 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:45:58,273 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:45:58,277 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:45:58,278 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:45:58,278 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:45:58,278 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:46:01,561 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 1
+2025-06-02 10:46:01,561 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:46:01,561 - INFO - Yuxi - 用户 admin 在实验 1 找到最新记录: ID=1, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:46:01,561 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:46:01,561 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:46:01,561 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:46:01,561 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:46:01,564 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:46:01,564 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:46:01,565 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:46:01,565 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:46:01,565 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=20.0
+2025-06-02 10:46:01,565 - INFO - Yuxi - 用户 admin 获取实验 1 的最新记录详情成功，记录ID: 1
+2025-06-02 10:47:46,395 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-06-02 10:47:46,398 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:47:46,398 - INFO - Yuxi - 用户 小谢 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:47:46,398 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:47:46,398 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:47:46,398 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:47:46,398 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:47:46,398 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:47:46,399 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 10:47:46,399 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:47:46,399 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:47:46,399 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:47:46,399 - INFO - Yuxi - 用户 小谢 获取实验 1 的最新记录详情成功，记录ID: 4
+2025-06-02 10:47:51,823 - INFO - Yuxi - 用户 小谢 继续实验 基于agent的视觉推理实验，更新当前步骤ID为: 3
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:47:53,424 - INFO - Yuxi - 用户 小谢 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:47:53,424 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 10:47:53,434 - INFO - Yuxi - 用户 小谢 获取实验 1 的最新记录详情成功，记录ID: 4
+2025-06-02 10:47:54,083 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-06-02 10:47:54,083 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:47:54,086 - INFO - Yuxi - 用户 小谢 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:47:54,086 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:47:54,087 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 10:47:54,087 - INFO - Yuxi - 用户 小谢 获取实验 1 的最新记录详情成功，记录ID: 4
+2025-06-02 10:48:00,674 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:48:00,678 - INFO - Yuxi - 用户 小谢 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=3
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 步骤 2: 不匹配 record.current_step_id (3)，设置为 pending, score=0.0。
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 步骤 3: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:48:00,678 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 10:48:00,678 - INFO - Yuxi - 用户 小谢 获取实验 1 的最新记录详情成功，记录ID: 4
+2025-06-02 10:48:01,795 - INFO - Yuxi - 用户 小谢 继续实验 基于agent的视觉推理实验，更新当前步骤ID为: 2
+2025-06-02 10:48:03,086 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-06-02 10:48:03,088 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:48:03,088 - INFO - Yuxi - 用户 小谢 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:48:03,089 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:48:03,090 - INFO - Yuxi - 用户 小谢 获取实验 1 的最新记录详情成功，记录ID: 4
+2025-06-02 10:48:05,894 - DEBUG - Yuxi - 进入 get_experiment_record_details，实验ID: 1, 用户ID: 3
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 实验 1 共有 3 个步骤。
+2025-06-02 10:48:05,895 - INFO - Yuxi - 用户 小谢 在实验 1 找到最新记录: ID=4, 整体状态=in_progress, 当前步骤ID=2
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 
+--- 处理步骤 1 ---
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 步骤 1: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 步骤 1 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 
+--- 处理步骤 2 ---
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 步骤 2: 匹配 record.current_step_id 且 record.status 为 IN_PROGRESS，设置为 answering, score=0.0。
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 步骤 2 最终输出 (不含答案): status='answering', score=0.0
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 
+--- 处理步骤 3 ---
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 步骤 3: 不匹配 record.current_step_id (2)，设置为 pending, score=0.0。
+2025-06-02 10:48:05,895 - DEBUG - Yuxi - 步骤 3 最终输出 (不含答案): status='pending', score=0.0
+2025-06-02 10:48:05,895 - INFO - Yuxi - 用户 小谢 获取实验 1 的最新记录详情成功，记录ID: 4

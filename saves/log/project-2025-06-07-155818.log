@@ -1,0 +1,585 @@
+2025-06-07 15:58:18,966 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-07 15:58:19,544 - INFO - XiDian - Database tables created/checked
+2025-06-07 15:58:22,177 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-07 15:58:22,299 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-07 15:58:22,300 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-07 15:58:22,300 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-07 15:58:26,271 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-07 15:58:55,786 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 15:58:55,856 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 15:59:34,834 - DEBUG - XiDian - Final response: 
+
+学习机器学习可以按照以下步骤进行：
+
+### 1. 学习机器学习的基础知识
+- **理解基本概念**：了解机器学习、监督学习、无监督学习、强化学习等基本概念。
+- **学习算法类型**：掌握分类、回归、聚类、降维等不同算法的用途和工作原理。
+
+### 2. 掌握必要的数学知识
+- **概率与统计**：理解数据分布、假设检验、置信区间等概念。
+- **线性代数**：学习向量、矩阵、特征值等知识，理解数据的表示和变换。
+- **微积分**：了解梯度、导数、优化方法（如梯度下降）的数学基础。
+
+### 3. 学习编程技能
+- **掌握Python**：熟练掌握Python编程，这是机器学习的主要编程语言。
+- **学习库与框架**：学习使用如NumPy、Pandas、Scikit-learn、TensorFlow、Keras等库和框架。
+
+### 4. 参加入门课程
+- **选择平台**：在Coursera、edX、Udacity等平台上寻找入门课程，如Andrew Ng的《机器学习》。
+- **系统学习**：通过课程系统地学习机器学习的基础知识和算法。
+
+### 5. 实践与项目
+- **处理数据**：选择Kaggle等平台上的项目数据集进行分析。
+- **构建模型**：尝试使用各种机器学习算法构建模型，解决实际问题。
+- **调优与优化**：学习模型调优、过拟合与欠拟合的处理方法。
+
+### 6. 深入学习高级算法
+- **学习深度学习**：使用TensorFlow、Keras等框架学习卷积神经网络（CNN）、 recurrent神经网络（RNN）、生成对抗网络（GAN）等。
+- **探索强化学习**：学习Q学习、深度强化学习等方法，应用于游戏控制等场景。
+
+### 7. 还原实践项目
+- **全周期项目**：参与一个完整的机器学习项目，从数据收集、处理、清洗、预处理，到模型训练、调优、评估、可视化和文档编写。
+- **团队合作**：通过团队项目，学习如何分工协作，解决实际问题。
+
+### 8. 参加比赛与交流
+- **参加比赛**：在Kaggle等比赛中实践机器学习，提升比赛排名。
+- **参与社区交流**：加入机器学习社区（如Stack Overflow、Reddit小组、GitHub上的开源项目），与他人交流学习经验。
+
+### 9. 学习进阶技术
+- **自然语言处理（NLP）**：学习文本处理、词向量、情感分析等技术。
+- **计算机视觉（CV）**：学习图像处理、卷积神经网络、目标检测等技术。
+
+### 10. 持续学习与优化
+- **跟踪前沿**：关注机器学习领域的最新研究和进展，了解新技术和新算法。
+- **优化方法**：学习模型优化方法，提高算法效率和性能。
+
+通过以上步骤的学习与实践，逐步提升自己的机器学习能力和水平，掌握从数据分析、模型构建到结果解释的完整流程，最终达到机器学习应用的 proficient 状态。
+2025-06-07 15:59:34,835 - DEBUG - XiDian - Final reasoning response: 嗯，如何学习机器学习呢？这是一个挺大的问题，因为机器学习覆盖的领域和工具实在太多了。首先，我需要理清楚机器学习的基础是什么，然后是各种具体的方法和算法。
+
+我想，第一步应该是了解机器学习的基本概念和术语。机器学习是通过训练数据让计算机程序能够在没有人类explicitly programmed的情况下改善。它分为监督学习、无监督学习和强化学习三类。监督学习需要有标记的数据，无监督学习则是从无标签的数据中发现隐藏的模式，强化学习是通过与环境互动来学习策略。
+
+接下来，我需要学习一些必要的数学知识。机器学习的算法多和概率论、统计学、线性代数、微积分等数学知识密切相关。例如，线性回归涉及到最小二乘法，支持向量机需要用到拉格朗日乘数法，神经网络则基于矩阵运算和微积分。
+
+然后是编程技能。机器学习通常使用Python，尤其是深度学习领域更依赖于TensorFlow、PyTorch等框架。我需要掌握Python的基本语法，以及如何使用这些库和框架来构建和训练模型。
+
+现在，我这个刚入门的人，应该先从哪里开始呢？首先，应该找一些入门的教程或课程。有很多在线平台，比如Coursera、edX、Udacity等，提供了相关的课程。例如，Andrew Ng的《机器学习》课程在Coursera上非常有名，系统地介绍了机器学习的基本概念和算法。
+
+接下来是要实践。机器学习是实践性很强的领域，光看理论是不够的，还需要通过实际项目来应用和巩固所学知识。可以去找一些公开的数据集，如Kaggle平台上的比赛数据，或者一些公开的CSV文件，尝试进行分类、回归等任务。
+
+另外，了解一些常用的机器学习算法也是必要的。例如，线性回归、决策树、随机森林、支持向量机、k近邻算法、神经网络、聚类算法等。学习这些算法的工作原理、适用场景以及优缺点。
+
+在实践过程中，可能会遇到很多问题。比如，数据预处理中的数据清洗、特征工程、过拟合、欠拟合等。我需要学会如何处理这些数据预处理的问题，选择合适的算法以及对其进行调优。
+
+此外，评估模型性能是一个重要的环节。如何评估一个模型的好坏？常见的评估指标包括准确率、召回率、精确率、F1分数、 ROC曲线、 AUC分数等，具体选择哪种指标取决于任务的性质。
+
+如果想更深入一点，可以学习深度学习和生成对抗网络（GAN）、强化学习等 Advanced 算法和框架，比如Keras和TensorFlow的高级功能，或者利用PPO、A2C等策略进行强化学习。
+
+提升自己的实践能力，关键在于不断尝试和实验不同的算法和参数。可以通过搭建一个完整的机器学习项目来巩固所学知识，例如从数据获取、预处理，到模型训练、调优，再到评估和可视化。
+
+此外，加入机器学习社区也是一个好的选择。与其他学习者交流，分享经验，学习不同的建模思路和技巧，可以让我学习到很多实用的知识和资源。
+
+综上所述，学习机器学习需要系统地学习理论知识，同时进行大量的实践，不断解决问题和提升自己的技能。这可能是一个漫长的过程，但通过持续的学习和实践，相信可以一步步掌握机器学习的核心概念和各种算法。
+
+2025-06-07 15:59:34,863 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 15:59:34,866 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,868 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,873 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 15:59:34,874 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:34,875 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,489 - INFO - XiDian - 用户 admin 尝试开始已完成的步骤 1 (记录 3)。
+2025-06-07 15:59:58,493 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 15:59:58,494 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 15:59:58,494 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 15:59:58,495 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,495 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,495 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 15:59:58,495 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,496 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,496 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,496 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,496 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 15:59:58,496 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:01:13,031 - INFO - XiDian - 用户 admin 请求完成实验步骤记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'score': 95.0}
+2025-06-07 16:01:13,031 - WARNING - XiDian - 用户 admin 尝试重复完成已完成的实验步骤记录 3。
+2025-06-07 16:01:13,036 - INFO - XiDian - 用户 admin 成功完成实验步骤记录 3 (步骤: 1)，得分: 95.0
+2025-06-07 16:10:32,022 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:32,211 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:32,413 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:32,579 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:32,863 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:33,030 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:33,056 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:33,236 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:33,320 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:33,517 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:34,147 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:34,330 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:34,336 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:34,532 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:34,539 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:34,737 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:34,762 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:34,905 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:35,023 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:35,261 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:35,324 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:35,522 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:35,593 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:35,770 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:36,481 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:36,668 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:36,853 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:37,039 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:37,398 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:37,630 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:38,129 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:38,314 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:38,389 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:38,594 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:38,626 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:38,829 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:38,855 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:39,062 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:39,221 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:39,438 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:39,498 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:39,711 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:40,191 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:40,406 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:40,528 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:40,763 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:40,966 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:41,184 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:41,197 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:41,376 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:41,537 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:41,719 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:41,960 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:42,150 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:42,166 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:42,357 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:42,411 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:42,604 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:42,718 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:42,901 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:42,913 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:43,086 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:43,211 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:43,372 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:43,460 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:43,613 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:43,678 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:43,835 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:43,886 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:44,061 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:44,103 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:44,266 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:44,311 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:44,464 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:44,487 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:44,657 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:44,717 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:44,908 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:44,941 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:45,121 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:45,265 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:45,461 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:45,689 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:45,864 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:45,919 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:46,131 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:46,330 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:46,516 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:46,686 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:46,906 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:46,916 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,123 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:47,304 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,517 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:47,536 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,655 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:47,668 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,738 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:47,754 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,824 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:47,838 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,901 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:47,930 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:47,998 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,017 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,088 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,103 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,172 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,198 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,266 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,268 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,336 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,369 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,444 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,472 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,537 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,547 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,617 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,640 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,712 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,722 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,792 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,813 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,882 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:48,898 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:48,967 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,004 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,083 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,279 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,344 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,366 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,432 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,439 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,507 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,508 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,575 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,598 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,667 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,669 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,742 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,766 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,853 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,855 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:49,923 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:49,943 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,011 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,013 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,082 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,103 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,170 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,172 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,239 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,241 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,311 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,332 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,400 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,402 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,471 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,472 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,541 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,556 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,623 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,629 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,698 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,709 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,779 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,793 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,861 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,871 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:50,941 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:50,942 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,011 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,013 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,080 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,104 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,173 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,178 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,249 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,250 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,320 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,344 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,415 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,416 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,490 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,506 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,574 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,579 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,645 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,646 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,712 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,723 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,797 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,805 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,890 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,907 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:51,980 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:51,981 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:52,047 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:52,055 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:52,124 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:10:52,135 - INFO - XiDian - Selecting model from `siliconflow` with `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+2025-06-07 16:10:52,206 - DEBUG - XiDian - Received query: 如何学习机器学习 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'}
+2025-06-07 16:11:23,616 - DEBUG - XiDian - Final response: 
+
+学习机器学习的第一步是制定一个明确的学习计划。确保你理解机器学习的基本原理和各种算法，学习必要的数学知识，掌握Python编程和机器学习库的使用，并通过实际项目来巩固和应用所学的知识。同时，保持持续学习和Iterative improvement的态度，不害怕失败，找到合适的‘学习路径’，并积极寻找资源和社区支持，加速你的学习进程。
+2025-06-07 16:11:23,616 - DEBUG - XiDian - Final reasoning response: 好，我要学习机器学习。我应该怎么开始呢？首先，机器学习听起来很复杂，有很多算法和概念，我需要一步一步来。
+
+我应该先了解机器学习的基本概念和术语。那什么是机器学习？它基本上是让计算机从数据中学习，而不是直接编程。有监督学习、无监督学习、半监督学习和强化学习，这些不同类型的机器学习应该是什么样的？
+
+我记得监督学习需要使用标签数据对模型进行训练，而无监督学习则不需要标签，是用来发现数据中的模式。半监督学习可能结合了两者，强化学习又是另一种不同的训练方式。我需要先弄清楚这些基本概念，这样才能更好地理解后续的具体算法。
+
+接下来，我应该了解一些必要的数学知识。机器学习涉及线性代数、概率论和统计学、微积分，还有优化算法。我得好好的复习这些数学基础，否则后面的学习可能会遇到障碍。
+
+然后，编程技能也是必须的。Python是机器学习中最常用的编程语言，因为有强大的库支持，比如scikit-learn、pandas和numpy。我应该学习这些库，了解如何使用它们来处理数据和实现算法。
+
+数据处理和可视化也是机器学习中的重要环节。如何高效地读取和处理各种类型的数据显示出来直观的图表是什么样的。这可能需要学习pandas和matplotlib或者seaborn这些库。
+
+接下来，我需要学习具体的机器学习算法。首先是基础算法，比如线性回归和逻辑回归，然后再是更复杂的算法，如支持向量机、决策树、随机森林、神经 Networks和深学习、聚类算法等。每个算法都有其特点和应用场景，我得一一了解它们的工作原理及其适用情况。
+
+实现这些算法时，我需要tract，持续积累项目经验。可以考虑开一个机器学习项目，从数据收集和预处理开始，到模型选择、训练和评估，然后进行调优，最后部署和后续优化。通过实际操作，我可以更好地理解和掌握机器学习的方法和技巧。
+
+除了理论学习和实践操作，参与实际项目和问题解决也很重要。通过处理真实数据和解决实际问题，可以锻炼我解决问题的能力和积累项目经验，帮助巩固和应用所学知识。
+
+另外，持续学习和提升也是必要的。机器学习是一个快速发展的领域，new algorithms and techniques出现，我需要不断学习最新的知识和技能，关注最新的研究成果和应用案例，保持对领域的了解和前沿动态。
+
+还有，不要害怕失败和错误。机器学习过程中会遇到各种问题和错误，要记住失败是成长的机会。通过不断尝试和调整，找到正确的解决问题的方法，逐步提升自己的能力。
+
+最后，找到一个适合自己的学习路径也很重要。根据自己的兴趣和职业目标选择学习的方向和深度。找到一个导师或者学习社区，可以提供指导和支持， speeds up the learning process。
+
+总的来说，学习机器学习需要一个系统的学习计划，从基础到应用，逐步深入， asbestos通过理论学习、实践操作、项目积累和持续学习，掌握了机器学习的知识和技能，最终实现自己的职业目标。
+
+2025-06-07 16:11:23,707 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:11:23,709 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:11:23,709 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,711 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,775 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:23,776 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,360 - INFO - XiDian - 用户 admin 尝试开始已完成的步骤 1 (记录 3)。
+2025-06-07 16:11:48,436 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:11:48,438 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:11:48,439 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:12:45,169 - INFO - XiDian - 用户 admin 请求完成实验步骤记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'score': 95.0}
+2025-06-07 16:12:45,170 - WARNING - XiDian - 用户 admin 尝试重复完成已完成的实验步骤记录 3。
+2025-06-07 16:12:45,178 - INFO - XiDian - 用户 admin 成功完成实验步骤记录 3 (步骤: 1)，得分: 95.0
+2025-06-07 16:13:06,070 - DEBUG - XiDian - Final response: 
+
+学习机器学习可以从以下几个步骤开始：
+
+1. **理解基本概念**：
+   - **机器学习**：一种让计算机学习数据、试图找出数据中的隐藏模式的方法。
+   - **监督学习**：利用标签数据进行监督式学习的算法，如分类和回归。
+   - **无监督学习**：不用标签数据，用于找数据中的隐藏结构，如聚类。
+
+2. **掌握必要基础知识**：
+   - **数学基础**：
+     - **线性代数**：理解向量和矩阵运算对机器学习算法很重要。
+     - **概率与统计**：理解数据的分布和假设检验。
+     - **微积分**：用于优化算法，如梯度下降。
+   - **编程基础**：
+     - 学习Python，尤其是用于机器学习的库如NumPy、Pandas、Matplotlib等。
+   - **算法基础**：
+     - 学习数据结构和算法，这对理解机器学习的优化和调优很重要。
+
+3. **学习机器学习算法**：
+   - **分类算法**：
+     - K-近邻算法（KNN）
+     - 决策树
+     - 随机森林
+     - 支持向量机（SVM）
+     - 神经网络
+   - **回归算法**：
+     - 线性回归
+     - 多项式回归
+   - **聚类算法**：
+     - K-均值聚类
+     - 层序聚类
+   - **降维算法**：
+     - 主成分分析（PCA）
+     - 线性判别分析（LDA）
+
+4. **掌握机器学习方法论**：
+   - **数据预处理**：包括数据清洗、特征工程、数据转换等。
+   - **模型评估**：了解不同的评估指标，如分类准确率、召回率、精确率、F1分数，回归中的MSE、RMSE、R²得分等。
+   - **过拟合与正则化**：防止模型在测试集上表现不佳。
+   - **特征选择与工程**：提升模型性能的关键步骤。
+
+5. **实践项目**：
+   - 通过实际的项目来应用所学的知识。
+   - 选择一个项目进行数据收集、处理、建模、评估和优化。
+
+6. **学习机器学习框架和库**：
+   - **Scikit-learn**：一个功能丰富的机器学习库。
+   - **TensorFlow** 和 **Keras**：用于深度学习模型的框架。
+   - **PyTorch**：另一个强大的深度学习框架。
+
+7. **持续学习与资源利用**：
+   - 关注机器学习和AI的最新发展。
+   - 参与社区和论坛，与他人交流学习经验。
+   - 通过书籍、在线课程、视频教程等方式不断学习。
+
+8. **保持好奇心和耐心**：
+   - 机器学习充满挑战，但也是非常有趣和有回报的。
+   - 保持耐心，不要急于求成，逐步深入理解和掌握各项技能。
+
+通过以上步骤，你可以系统地学习机器学习，从基础知识到实际应用，逐步提升自己的技能，最终达到能够独立解决机器学习问题的目标。
+2025-06-07 16:13:06,070 - DEBUG - XiDian - Final reasoning response: 今天早上，我决定开始学习机器学习，因为我觉得它对我的职业发展和未来很有帮助。但我发现有很多地方需要了解，有些概念对我来说有点抽象，我不确定从哪里开始。我希望能够系统地学习机器学习，掌握必要的基础知识和技能。
+
+首先，我要明确机器学习的基本概念。机器学习是一个让计算机在没有明确编程的情况下学习并改进的领域。它通过训练数据算法来找出其中的模式，并利用这些模式来进行预测或决策。
+
+接下来，我需要了解一些必要的数学知识。机器学习背后有很多数学原理，尤其是线性代数、概率论和统计学。这些都是机器学习的基础，缺少它们可能会让我在学习过程中感到困难。
+
+然后，编程能力也是必不可少的。Python是机器学习中使用最多的编程语言，我需要掌握Python的基础语法和常用库，比如NumPy和Pandas，它们可以帮助我高效地处理数据。
+
+我还需要学习机器学习的不同算法，像是线性回归、支持向量机、决策树和神经网络等等。这些算法各有优缺点，了解它们的工作原理和适用场景对于我来说非常重要。
+
+此外，实践也很关键。仅仅理解理论是不够的，我需要通过实际项目来应用这些知识，这样才能更好地理解和掌握机器学习的方法。
+
+最后，我意识到持续学习和保持兴趣的重要性。机器学习领域不断发展变化，我需要不断更新自己的知识，紧跟最新的技术和趋势。
+
+总的来说，我需要制定一个学习计划，逐步学习机器学习的各个组成部分，从基础知识到实际应用，同时保持积极的学习态度和坚持不懈的精神。
+
+2025-06-07 16:13:06,337 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:13:06,339 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:13:06,340 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:13:06,340 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,341 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,341 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:13:06,341 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,342 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,342 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,342 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,343 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,343 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,522 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:13:06,524 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:13:06,525 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:13:06,525 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,526 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,526 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:13:06,526 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,526 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,526 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,526 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,528 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:06,528 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,361 - INFO - XiDian - 用户 admin 尝试开始已完成的步骤 1 (记录 3)。
+2025-06-07 16:13:31,505 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:13:31,509 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:13:31,510 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:13:31,511 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,511 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,511 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:13:31,511 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,511 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,511 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,512 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,512 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:13:31,512 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:20,518 - DEBUG - XiDian - Final response: 
+
+学习机器学习可以从以下几个步骤开始：
+
+1. **掌握基础知识**
+   - **数学基础**：学习线性代数、概率统计和微积分，这是机器学习的基础知识。
+   - **编程基础**：学习Python（推荐使用Python3），掌握基本的编程概念和常用库如NumPy、Pandas和Matplotlib。
+
+2. **学习机器学习概念**
+   - **入门书籍**：阅读《机器学习 crash course》或《机器学习实战》等入门书籍，了解机器学习的基本概念。
+   - **在线课程**：通过Coursera、Udemy等平台学习机器学习的基础课程。
+
+3. **实践操作**
+   - **使用工具库**：学习并实践使用TensorFlow、PyTorch等流行框架进行模型训练。
+   - **动手项目**：选择一个实际项目（如图像分类、预测分析）来练习，从数据收集、处理到模型部署。
+
+4. **逐步深入**
+   - **算法学习**：从简单算法如线性回归开始，逐步学习决策树、支持向量机等中等难度的算法。
+   - **高级技术**：学习神经网络、深度学习等高级技术，参与一些复杂项目或加入机器学习社区。
+
+5. **持续学习**
+   - **关注前沿**：关注机器学习的最新研究和应用，订阅 newsletters、博客等资源。
+   - **参加比赛**：参与机器学习竞赛，如Kaggle比赛，积累实战经验。
+
+6. **建立学习社区**
+   - **加入社区**：如LeetCode、 medium机器之心等，参与讨论，分享学习心得。
+   - **寻求帮助**：遇到问题时，及时向社区或同学请教，共同进步。
+
+通过系统的学习和不断的实践，你将逐渐掌握机器学习的核心知识和技能，准备好应对各种实际应用挑战。
+2025-06-07 16:14:20,523 - DEBUG - XiDian - Final reasoning response: 嗯，最近我对机器学习挺感兴趣的，想要学习相关知识。但感觉有点无从下手，不知道该从哪里开始。首先，我需要明确什么是机器学习？从名字上看，似乎是通过学习来让计算机具备一些智力相关的任务，像是分类、预测之类的。
+
+听说机器学习有很多算法，比如线性回归、决策树、随机森林、神经网络等等，但是这些名字听起来有点复杂。我觉得如果先从基础的算法入手，可能会更容易理解。可是，我还不清楚这些算法具体是用来做什么的，有什么应用场景。
+
+然后，我又想到学习机器学习需要哪些数学基础？好像涉及到线性代数、概率统计、微积分这些数学知识，可是我感觉自己对这些数学方面的知识掌握得不太好。这个会不会是一个主要的障碍？
+
+此外，AI工具也很流行，比如TensorFlow、PyTorch、Keras这些框架，我觉得用这些库来实现机器学习模型会很方便。但我又担心自己不知道怎么使用这些库，而且代码看起来有点难理解，可能会让我感到挫败。
+
+再者，实践才是王道，听说要通过项目来学习机器学习。但是我没有相关的项目经验，单独学习的话会不会感觉没有动力？或者在哪里能够找到合适的机器学习项目来练习呢？
+
+作为一个刚开始学习的人，我觉得可能需要先学习一些基础的编程知识，比如Python，因为这些机器学习框架都是基于Python的。可是我对编程也不太熟悉，不知道从哪里开始学起。
+
+还有一点，机器学习的资料那么多，可能会让人感到信息过载。不知道该信任哪些官方资源，或者有没有适合新手的学习路径？
+
+总的来说，我感觉要系统地学习机器学习，需要先了解基础知识，包括数学、算法、编程工具等等。然后，逐步学习并实践各种算法，通过项目来巩固知识。但是我可能需要一步步来，先解决学习数学中的困难，再逐步掌握编程和机器学习的核心概念。
+
+另外，听说机器学习需要实际的数据处理和分析能力，所以数据预处理、特征工程这些也是重要的一部分。我还不太了解这些步骤，需要先学习如何处理和清洗数据。
+
+在学习过程中，可能会遇到很多挑战，比如理解复杂的算法原理、调试代码、选择合适的模型等等。不过，坚持下去，多练习，应该是能够克服这些困难的。同时，找到合适的学习资源和社区支持也很重要，可以帮忙解决学习中的问题。
+
+最后，我觉得学习机器学习是一个长远的过程，可能需要持续学习和实践，才能真正掌握相关技术。不过，我相信只要按照合理的步骤来，慢慢积累知识和经验，就一定能够逐渐掌握机器学习的魅力和应用。
+
+2025-06-07 16:14:32,831 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:14:32,835 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:14:32,836 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:14:32,836 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,836 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,838 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:14:32,838 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,838 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,838 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,839 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,839 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,839 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:32,880 - INFO - XiDian - 用户 admin 请求完成实验步骤记录，数据: {'user_id': 1, 'experiment_id': 1, 'current_step_id': 1, 'score': 95.0}
+2025-06-07 16:14:32,881 - WARNING - XiDian - 用户 admin 尝试重复完成已完成的实验步骤记录 3。
+2025-06-07 16:14:32,889 - INFO - XiDian - 用户 admin 成功完成实验步骤记录 3 (步骤: 1)，得分: 95.0
+2025-06-07 16:14:32,998 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-07 16:14:32,999 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-07 16:14:33,000 - DEBUG - XiDian - 步骤 1: 找到记录 3，状态 'completed', 分数 95.0
+2025-06-07 16:14:33,001 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,001 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,001 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-07 16:14:33,001 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,002 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,002 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,002 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,002 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-07 16:14:33,002 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0

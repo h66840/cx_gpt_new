@@ -1,0 +1,60 @@
+2025-06-03 18:06:46,859 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-06-03 18:06:47,407 - INFO - Yuxi - Database tables created/checked
+2025-06-03 18:06:49,255 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-03 18:06:49,255 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-06-03 18:06:53,500 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-06-03 18:07:12,694 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-03 18:07:17,073 - INFO - Yuxi - Selecting model from `siliconflow` with `Qwen/Qwen2.5-7B-Instruct`
+2025-06-03 18:07:17,161 - DEBUG - Yuxi - Received query: 写一个简单的冒泡排序 with meta: {'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'selectedKB': None, 'summary_title': False, 'history_round': 20, 'db_id': None, 'fontSize': 'default', 'wideScreen': False, 'server_model_name': 'Qwen/Qwen2.5-7B-Instruct'}
+2025-06-03 18:07:29,835 - DEBUG - Yuxi - Final response: 当然！冒泡排序是一种简单的排序算法，它通过重复地遍历要排序的列表，比较每一对相邻项并交换它们（如果有需要），逐渐将较大的元素“冒泡”到列表的末尾。下面是一个简单的冒泡排序算法的Python实现：
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    # 遍历所有数组元素
+    for i in range(n):
+        # 最后i个元素已经是排序好的
+        for j in range(0, n-i-1):
+            # 如果当前元素大于下一个元素，交换它们
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# 测试数据
+arr = [64, 34, 25, 12, 22, 11, 90]
+sorted_arr = bubble_sort(arr)
+print("排序后的数组:", sorted_arr)
+```
+
+### 解释：
+1. `n = len(arr)`：获取数组的长度。
+2. 外层循环 `for i in range(n)`：遍历整个数组。
+3. 内层循环 `for j in range(0, n-i-1)`：最后一轮冒泡中只需要比较 `n-i-1` 次，因为最后 `i` 个元素已经是排好序的。
+4. `if arr[j] > arr[j+1]`：如果当前元素大于下一个元素，则交换它们的位置。
+
+### 输出：
+```python
+排序后的数组: [11, 12, 22, 25, 34, 64, 90]
+```
+
+这个示例中，`bubble_sort` 函数接收一个列表并返回排序后的列表。你可以根据需要调整代码以适应不同的场景。
+2025-06-03 18:07:29,835 - DEBUG - Yuxi - Final reasoning response: 
+2025-06-03 18:07:33,362 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-06-03 18:07:41,299 - INFO - Yuxi - Saving config to saves\config\base.yaml
+2025-06-03 18:07:41,301 - INFO - Yuxi - Config file saves\config\base.yaml saved

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>动态场景图</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background-color: #f0f2f5; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
+        h1 { color: #333; margin-top: 20px; font-size: 2em; }
+        #cy {
+            width: 90vw; /* 调整为视口宽度的90% */
+            height: 80vh; /* 调整为视口高度的80% */
+            border: 2px solid #a0c4ff; /* 略微更明显的边框 */
+            border-radius: 12px; /* 圆角 */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 柔和的阴影 */
+            background-color: #ffffff;
+            position: relative; /* 确保在文档流中，而不是绝对定位在顶部 */
+            margin-top: 20px; /* 与标题保持距离 */
+            max-width: 1200px; /* 最大宽度限制 */
+        }
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            #cy {
+                width: 95vw;
+                height: 70vh;
+            }
+        }
+    </style>
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>实时场景图展示</h1>
+    <div id="cy"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- 1. 初始化 Cytoscape ---
+            const cy = cytoscape({
+                container: document.getElementById('cy'),
+                style: [ // 定义节点和边的样式
+                    {
+                        selector: 'node',
+                        style: {
+                            'background-color': '#6cb2eb', // 蓝色系
+                            'label': 'data(label)',
+                            'width': '60px',
+                            'height': '60px',
+                            'font-size': '14px',
+                            'color': '#ffffff',
+                            'text-valign': 'center',
+                            'text-halign': 'center',
+                            'text-outline-color': '#4a7ea3',
+                            'text-outline-width': 2,
+                            'border-width': 2,
+                            'border-color': '#4a7ea3',
+                            'border-radius': '50%', // 圆形节点
+                            'opacity': 0 // 初始透明度为0，用于渐入效果
+                        }
+                    },
+                    {
+                        selector: 'edge',
+                        style: {
+                            'width': 3,
+                            'line-color': '#9babc4', // 柔和的灰色蓝色
+                            'target-arrow-color': '#9babc4',
+                            'target-arrow-shape': 'triangle',
+                            'curve-style': 'bezier',
+                            'label': 'data(label)',
+                            'font-size': '12px',
+                            'color': '#555',
+                            'text-background-opacity': 1,
+                            'text-background-color': '#f0f2f5', // 浅背景色
+                            'text-background-padding': '3px',
+                            'text-wrap': 'wrap', // 允许标签换行
+                            'text-max-width': '80px', // 设置标签最大宽度
+                            'opacity': 0 // 初始透明度为0，用于渐入效果
+                        }
+                    },
+                    {
+                        selector: 'edge.highlighted', // 新增：高亮边的样式
+                        style: {
+                            'line-color': '#ff9f1c',
+                            'target-arrow-color': '#ff9f1c',
+                            'z-index': 999,
+                            'font-weight': 'bold'
+                        }
+                    }
+                ],
+                layout: {
+                    name: 'preset', // 初始不使用自动布局，等待所有元素添加后再进行布局
+                    fit: true,
+                    padding: 30
+                }
+            });
+
+            // --- 新增：更新队列和处理逻辑 ---
+            const updateQueue = [];
+            let processingInterval = null; // 定时器句柄
+            const processDelay = 300; // 每个元素处理的间隔时间（毫秒）
+            let lastLayoutRunTime = 0; // 记录上次布局运行时间
+            const layoutCooldown = 1000; // 布局冷却时间，避免频繁触发
+
+            function processNextUpdate() {
+                if (updateQueue.length > 0) {
+                    const update = updateQueue.shift(); // 取出队列中的第一个更新
+
+                    if (update.type === 'node') {
+                        const node = cy.add({ group: 'nodes', data: update.data, position: update.position });
+                        node.animate({
+                            style: { 'opacity': 1 },
+                            duration: 500 // 节点渐入动画
+                        });
+                        console.log("Added node:", update.data.id);
+                    } else if (update.type === 'edge') {
+                        const edge = cy.add({ group: 'edges', data: update.data });
+                        edge.animate({
+                            style: { 'opacity': 1 },
+                            duration: 500 // 边渐入动画
+                        });
+                        console.log("Added edge:", update.data.id);
+                    }
+
+                    // 避免频繁触发布局，在添加一系列元素后或一段时间后触发
+                    const currentTime = Date.now();
+                    if (updateQueue.length === 0 || (currentTime - lastLayoutRunTime > layoutCooldown)) {
+                        console.log("Running layout...");
+                        cy.layout({
+                            name: 'cose',
+                            animate: true,
+                            animationDuration: 800,
+                            padding: 30,
+                            nodeDimensionsIncludeLabels: true
+                        }).run();
+                        lastLayoutRunTime = currentTime;
+                    }
+
+                } else {
+                    // 队列为空时，停止定时器
+                    clearInterval(processingInterval);
+                    processingInterval = null;
+                    console.log("Update queue empty, stopping processing.");
+                }
+            }
+
+            // --- 2. 连接到 WebSocket 服务器 ---
+            const ws = new WebSocket(`ws://${window.location.host}/ws`);
+
+            ws.onmessage = function(event) {
+                if (event.data === "connected") {
+                    console.log("Ignored non-JSON 'connected' message from WebSocket.");
+                    return;
+                }
+
+                try {
+                    const message = JSON.parse(event.data);
+                    console.log("Received data:", message);
+
+                    if (message && typeof message === 'object' && message.type) {
+                        if (message.type === 'full_graph') {
+                            cy.elements().remove(); // 清空旧图
+                            // 将所有节点和边都加入队列，先节点后边
+                            message.data.nodes.forEach(n => {
+                                updateQueue.push({
+                                    type: 'node',
+                                    data: { id: n.id, label: n.label || n.id },
+                                    position: { x: Math.random() * 500, y: Math.random() * 500 } // 初始随机位置
+                                });
+                            });
+                            message.data.links.forEach(e => {
+                                const edgeId = `edge-${e.source}-${e.target}-${e.label || ''}`;
+                                updateQueue.push({
+                                    type: 'edge',
+                                    data: { id: edgeId, source: e.source, target: e.target, label: e.label || '' }
+                                });
+                            });
+
+                            // 如果定时器未运行，则启动
+                            if (!processingInterval) {
+                                processingInterval = setInterval(processNextUpdate, processDelay);
+                            }
+                            console.log("Full graph loaded into queue. Starting processing.");
+
+                        } else if (message.type === 'update') {
+                            const update = message.data;
+
+                            // 将新增的节点和边加入队列
+                            const sourceNodeData = { id: update.source.id, label: update.source.label || update.source.id };
+                            const targetNodeData = { id: update.target.id, label: update.target.label || update.target.id };
+
+                            // 只有当节点不存在时才添加到队列
+                            if (cy.getElementById(sourceNodeData.id).empty()) {
+                                updateQueue.push({
+                                    type: 'node',
+                                    data: sourceNodeData,
+                                    position: { x: Math.random() * 500, y: Math.random() * 500 }
+                                });
+                            }
+                            if (cy.getElementById(targetNodeData.id).empty()) {
+                                updateQueue.push({
+                                    type: 'node',
+                                    data: targetNodeData,
+                                    position: { x: Math.random() * 500, y: Math.random() * 500 }
+                                });
+                            }
+
+                            const edgeId = `edge-${update.edge.source}-${update.edge.target}-${update.edge.label || ''}`;
+                            if (cy.getElementById(edgeId).empty()) {
+                                updateQueue.push({
+                                    type: 'edge',
+                                    data: { id: edgeId, source: update.edge.source, target: update.edge.target, label: update.edge.label || '' }
+                                });
+                            }
+
+                            // 如果定时器未运行，则启动
+                            if (!processingInterval) {
+                                processingInterval = setInterval(processNextUpdate, processDelay);
+                            }
+                            console.log("Update message processed, added to queue.");
+
+                        } else {
+                            console.warn("Received message with unknown type:", message.type, "Data:", message);
+                        }
+                    } else {
+                        console.warn("Received non-standard or unexpected JSON message (missing 'type' or not an object):", message);
+                    }
+                } catch (error) {
+                    console.error("Failed to parse WebSocket message or update graph:", error);
+                    console.error("Original message data:", event.data);
+                }
+            };
+
+            ws.onopen = function(event) {
+                console.log("WebSocket connection established.");
+            };
+
+            ws.onclose = function(event) {
+                console.log("WebSocket connection closed.");
+                // 关闭时清除定时器，避免内存泄漏
+                if (processingInterval) {
+                    clearInterval(processingInterval);
+                }
+            };
+
+            ws.onerror = function(error) {
+                console.error("WebSocket error:", error);
+            };
+        });
+    </script>
+</body>
+</html>

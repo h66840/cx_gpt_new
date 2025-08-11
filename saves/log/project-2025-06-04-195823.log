@@ -1,0 +1,19 @@
+2025-06-04 19:58:23,830 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-06-04 19:58:25,223 - INFO - XiDian - Database tables created/checked
+2025-06-04 19:58:31,426 - DEBUG - XiDian - Loading embedding model siliconflow/BAAI/bge-m3
+2025-06-04 19:58:41,455 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-06-04 19:58:41,456 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-06-04 19:58:41,456 - DEBUG - XiDian - 创建新的图数据库配置
+2025-06-04 19:58:53,021 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-06-04 19:59:34,938 - DEBUG - XiDian - 进入 get_experiment_record_details，整体实验ID: 1, 用户ID: 1
+2025-06-04 19:59:34,955 - DEBUG - XiDian - 实验 1 共有 10 个步骤。
+2025-06-04 19:59:34,960 - DEBUG - XiDian - 步骤 1: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,961 - DEBUG - XiDian - 步骤 2: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,961 - DEBUG - XiDian - 步骤 3: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,962 - DEBUG - XiDian - 步骤 4: 找到记录 1，状态 'completed', 分数 90.0
+2025-06-04 19:59:34,962 - DEBUG - XiDian - 步骤 5: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,962 - DEBUG - XiDian - 步骤 6: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,963 - DEBUG - XiDian - 步骤 7: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,963 - DEBUG - XiDian - 步骤 8: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,963 - DEBUG - XiDian - 步骤 9: 未找到对应记录，默认为 'pending', 分数 0.0
+2025-06-04 19:59:34,963 - DEBUG - XiDian - 步骤 10: 未找到对应记录，默认为 'pending', 分数 0.0

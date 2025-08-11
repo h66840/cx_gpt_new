@@ -1,0 +1,11 @@
+2025-08-01 16:56:37,460 - INFO - XiDian - Loading config from saves\config\base.yaml
+2025-08-01 16:56:38,012 - INFO - XiDian - Database tables created/checked
+2025-08-01 16:56:40,728 - DEBUG - XiDian - Loading embedding model local/BAAI/bge-m3
+2025-08-01 16:56:40,728 - INFO - XiDian - Loading local model `BAAI/bge-m3` from `BAAI/bge-m3` with device `cuda`
+2025-08-01 16:56:40,728 - DEBUG - XiDian - 如果没配置任何路径的话，正常情况下会自动从 Huggingface 下载模型，如果遇到下载失败，可以尝试使用 HF_MIRROR 环境变量；如果还是不行，建议手动下载到某个文件夹，比如  /models/BAAI/bge-m3 目录下；
+2025-08-01 16:56:53,225 - INFO - XiDian - Embedding model BAAI/bge-m3 loaded, self.model=HuggingFaceEmbeddings(model_name='BAAI/bge-m3', cache_folder=None, model_kwargs={'device': 'cuda'}, encode_kwargs={'normalize_embeddings': True, 'prompt_name': None}, query_encode_kwargs={}, multi_process=False, show_progress=False)
+2025-08-01 16:56:53,399 - INFO - XiDian - Successfully connected to Milvus at http://localhost:19530
+2025-08-01 16:56:53,399 - DEBUG - XiDian - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-08-01 16:56:53,399 - DEBUG - XiDian - 创建新的图数据库配置
+2025-08-01 16:56:53,407 - INFO - XiDian - WebSearcher initialized with Tavily client
+2025-08-01 16:56:53,528 - WARNING - XiDian - 无法将知识库 实验课 转换为 Tools, 因为向量模型不匹配，当前向量模型: local/BAAI/bge-m3，知识库向量模型: siliconflow/BAAI/bge-m3。

@@ -1,0 +1,98 @@
+/* color palette from <https://github.com/vuejs/theme> */
+/* https://material-foundation.github.io/material-theme-builder/ */
+:root {
+  /* 主蓝色系列 - 更新为更现代的蓝色调 */
+  --main-1000: #001d66;
+  --main-900: #002c8c;
+  --main-800: #0041d0;
+  --main-700: #0958d9;
+  --main-600: #1677ff;
+  --main-500: #4096ff;
+  --main-400: #69b1ff;
+  --main-300: #91caff;
+  --main-200: #bae0ff;
+  --main-100: #d9ecff;
+  --main-50: #e6f4ff;
+  --main-25: #f0f9ff;
+  --main-10: #f5fbff;
+  --main-5: #fafcff;
+
+  /* 灰色系列 - 保持不变 */
+  --gray-10000: #000000;
+  --gray-2000: #0c1214;
+  --gray-1000: #171c1f;
+  --gray-900: #212729;
+  --gray-800: #42484a;
+  --gray-700: #616161;
+  --gray-600: #8c9193;
+  --gray-500: #a7acad;
+  --gray-400: #c4c7c8;
+  --gray-300: #dfe3e4;
+  --gray-200: #eff1f2;
+  --gray-100: #f8fafb;
+  --gray-50: #fbfdfe;
+  --gray-10: #fdfeff;
+  --gray-0: #ffffff;
+
+  /* 功能色 */
+  --main-color: #1677ff;
+  --main-color-dark: #0041d0;
+  --main-light-1: #4096ff;
+  --main-light-2: #d9ecff;
+  --main-light-3: #e6f4ff;
+  --main-light-4: #f0f9ff;
+  --main-light-5: #f5fbff;
+  --main-light-6: #fafcff;
+  --main-light-7: #ffffff;
+
+  /* 辅助色 */
+  --secondry-color: #4e616d;
+  --success-color: #52c41a;
+  --warning-color: #faad14;
+  --error-color: #ff4d4f;
+
+  /* 其他变量保持不变 */
+  --bg-sider: var(--main-5);
+  --color-text: var(--gray-900);
+  --min-width: 400px;
+
+  /* 添加阴影变量 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* 添加过渡变量 */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  display: flow-root;
+  min-height: 100vh;
+  color: var(--gray-900);
+  line-height: 1.6;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Noto Sans SC', 'Roboto', 'HarmonyOS Sans SC', 'Segoe UI',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7fa; /* 添加浅灰背景色 */
+  .step-title,
+  .nav-text,
+  .step-info,
+  #tutorial-content {
+    user-select: text;
+  }
+}

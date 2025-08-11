@@ -1,0 +1,17 @@
+2025-05-30 09:39:17,918 - INFO - Yuxi - Loading config from saves\config\base.yaml
+2025-05-30 09:39:18,553 - INFO - Yuxi - Database tables created/checked
+2025-05-30 09:39:20,665 - DEBUG - Yuxi - 图数据库信息文件不存在：saves\knowledge_graph\neo4j\graph_info.json
+2025-05-30 09:39:20,665 - DEBUG - Yuxi - 创建新的图数据库配置
+2025-05-30 09:39:26,002 - INFO - Yuxi - WebSearcher initialized with Tavily client
+2025-05-30 09:39:48,408 - ERROR - Yuxi - 获取数据库列表失败 知识库未启用, Traceback (most recent call last):
+  File "E:\source\PycharmProject\LabClass\server\routers\data_router.py", line 17, in get_databases
+    database = knowledge_base.get_databases()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\source\PycharmProject\LabClass\src\core\knowledgebase.py", line 295, in get_databases
+    assert config.enable_knowledge_base, "知识库未启用"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 知识库未启用
+
+2025-05-30 09:39:54,765 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
+2025-05-30 09:39:56,233 - INFO - Yuxi - 用户 admin 继续实验 基于agent的视觉推理实验
+2025-05-30 09:39:57,490 - INFO - Yuxi - 用户 admin 获取实验 1 的记录详情，记录ID: 1
