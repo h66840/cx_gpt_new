@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>图像表达：由粗到细的层级场景图生成</title>
+  <style>
+    body {
+      background-color: #0b1f3a;
+      color: #f0f4ff;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #ffe7ff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #1c2d4a;
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 1.2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      color: #ffb3f6;
+      font-size: 1.15rem;
+    }
+    .section-title {
+      color: #a8d1ff;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .answer {
+      margin-top: 1rem;
+      background: #29456b;
+      padding: 1rem;
+      border-left: 4px solid #4f83cc;
+      border-radius: 8px;
+      color: #cce4ff;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>图像表达：由粗到细的层级场景图生成</h1>
+  <div class="grid" id="grid"></div>
+
+  <script>
+    const cards = [
+      {
+        title: "①记忆：回忆核心知识",
+        explanation: "同学们，今天我们来学习一种新的场景图生成方法——“由粗到细的层级场景图生成”。首先，我们要回忆一下什么是场景图。场景图是多模态视觉理解任务中的一个重要工具，它通过图的形式将图像中的对象、属性和语义关系信息进行结构化的表示，如“新郎-切-蛋糕”。",
+        task: "观察一张图像，说出包含的对象，并尝试写下对象之间的关系。",
+        answer: "例如图中包含“男孩”、“自行车”、“草地”；男孩在“骑”自行车，自行车在“草地”上。"
+      },
+      {
+        title: "②理解：层级结构的必要性",
+        explanation: "为什么我们需要层级结构呢？因为传统场景图常将背景与所有对象连接，无法有效地捕捉复杂的语义关系，容易产生“语义弱关联”的问题。而层级结构可以帮助我们更好地理解和组织场景中的信息，使得推理更加准确和高效。层级结构模拟了人类理解复杂图像的认知过程，能够逐步深入地解析场景。",
+        task: "对比单层场景图和层级场景图，指出哪个更清晰，并找出冗余关系。",
+        answer: "层级图更清晰，如“窗户-属于-房间”，避免“窗户-连-每个物体”。冗余例子：“天空-在旁边-桌子”。"
+      },
+      {
+        title: "③应用：三步建图流程",
+        explanation: "接下来，我们来看一下如何具体构建一个层级化的场景图。整个过程分为三个步骤：第一步：宏观概述。从宏观角度出发，阐述场景的主题，例如：“这是一个在室内发生的婚礼庆祝场景。”来把握场景的整体语义。第二步：核心描述。基于场景主题接着描述场景中的核心区域、关键人物及其动作，例如：“新郎和新娘在切蛋糕。”抓住场景的核心事件。最后：细节补充。补充不太关键的背景信息及次要的场景元素，例如：“背景有装饰气球”、“墙上有窗户。”使得场景图更加完整和丰富。",
+        task: "根据图像完成三步场景图生成：写场景/事件层、区域层、目标层、。",
+        answer: "主场景：“婚礼”；区域：“新娘桌”；细节：“项链-放在-桌上”，“蛋糕-靠近-刀”。"
+      },
+      {
+        title: "④分析：推理路径与结构依赖",
+        explanation: "结构图中的上下层节点构成逻辑路径，系统通过这些路径进行语义推理。有了层级结构后，我们可以更清晰地分析推理路径。层级结构不仅帮助我们更好地理解场景中的对象和关系，还可以指导推理过程。例如，在婚礼场景中，“婚礼”这个事件包含了“切蛋糕”这个动作，而“切蛋糕”又涉及到具体的对象如“新娘”和“蛋糕”。这种结构依赖关系使得推理更加准确和可靠。",
+        task: "给出一个问题，标注问题在场景图中的推理路径。",
+        answer: "问题：“谁在切蛋糕？”路径：“老人”→“切”→“蛋糕”；其中“蛋糕”属于“桌面区域”。"
+      },
+      {
+        title: "⑤评价：判断图结构质量",
+        explanation: "如何评价一个层级场景图的质量呢？我们主要从以下几个方面来判断：1. 语义准确性：图中的对象和关系是否准确表达了场景的真实情况。2. 结构清晰度：图的层级结构是否清晰，是否有冗余或缺失的信息。3. 推理支持性：图是否能够有效支持后续的推理任务，如视觉问答和交互式智能体。",
+        task: "对比两组场景图及问答，评估哪组更合理。",
+        answer: "第一组答出“新娘在看蛋糕”，结构为“新娘-注视-蛋糕”，比第二组“新娘-在旁边-蛋糕”更合理。"
+      },
+      {
+        title: "⑥创造：设计任务实践",
+        explanation: "最后，让我们通过一个实际任务来巩固所学的知识。请同学们尝试使用“由粗到细的层级场景图生成”方法，对一张给定的图片进行场景图构建。具体步骤如下：1. 选择一张图片：可以是日常生活中的任何场景，如家庭聚会、户外活动等。2. 宏观概述：描述图片的主题和整体环境。3. 核心描述：指出图片中的关键人物、物体及其动作。4. 细节补充：添加背景信息和其他次要元素。5. 评估结果：根据之前学到的标准，评价自己构建的场景图质量，并思考如何改进。",
+        task: "选择图像，设计问题、构建层级场景图并展示推理过程。",
+        answer: "图像：“厨房”。问题：“谁在炒菜？”图：“男子-握-锅铲”，“锅铲-在-锅上”；回答：“男子”。"
+      }
+    ];
+
+    const grid = document.getElementById('grid');
+    cards.forEach((card, index) => {
+      const div = document.createElement('div');
+      div.className = 'card';
+      div.innerHTML = `
+        <h2>${card.title}</h2>
+        <p class="section-title">知识讲解</p>
+        <p>${card.explanation}</p>
+        <p class="section-title">学生任务</p>
+        <p>${card.task}</p>
+        <div class="answer" id="answer-${index}"><strong>参考答案：</strong> ${card.answer}</div>
+      `;
+      div.addEventListener('click', () => {
+        const panel = div.querySelector('.answer');
+        panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+      });
+      grid.appendChild(div);
+    });
+  </script>
+</body>
+</html>
