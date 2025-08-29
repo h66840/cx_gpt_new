@@ -1,0 +1,93 @@
+{
+  "dashboard": {
+    "title": "内部物流仪表盘",
+    "version": "1.2.0",
+    "lastUpdated": "2024-12-19"
+  },
+  "carriers": [
+    {
+      "id": "carrier_001",
+      "name": "顺丰速运",
+      "code": "SF",
+      "status": "active",
+      "apiEndpoint": "https://api.sf-express.com/v1",
+      "trackingUrl": "https://www.sf-express.com/cn/sc/dynamic_function/waybill/#search/bill-number/",
+      "supportedServices": ["standard", "express", "overnight"],
+      "regions": ["华北", "华东", "华南", "西南"],
+      "contactInfo": {
+        "phone": "400-811-1111",
+        "email": "service@sf-express.com"
+      }
+    },
+    {
+      "id": "carrier_002", 
+      "name": "中通快递",
+      "code": "ZTO",
+      "status": "active",
+      "apiEndpoint": "https://api.zto.com/v1",
+      "trackingUrl": "https://www.zto.com/",
+      "supportedServices": ["standard", "express"],
+      "regions": ["华北", "华东", "华中", "西北"],
+      "contactInfo": {
+        "phone": "400-827-0270",
+        "email": "service@zto.com"
+      }
+    },
+    {
+      "id": "carrier_003",
+      "name": "京东物流",
+      "code": "JD",
+      "status": "active",
+      "apiEndpoint": "https://api.jdwl.com/v1",
+      "trackingUrl": "https://www.jdwl.com/",
+      "supportedServices": ["standard", "express", "same-day", "next-day"],
+      "regions": ["全国"],
+      "contactInfo": {
+        "phone": "400-603-3600",
+        "email": "service@jdwl.com"
+      }
+    },
+    {
+      "id": "carrier_004",
+      "name": "德邦快递",
+      "code": "DBL",
+      "status": "active",
+      "apiEndpoint": "https://api.deppon.com/v1",
+      "trackingUrl": "https://www.deppon.com/",
+      "supportedServices": ["standard", "express", "freight"],
+      "regions": ["华东", "华南", "华中"],
+      "contactInfo": {
+        "phone": "400-830-5555",
+        "email": "service@deppon.com"
+      },
+      "specialFeatures": ["大件物流", "重货运输"],
+      "addedDate": "2024-12-19",
+      "isNewCarrier": true
+    }
+  ],
+  "settings": {
+    "refreshInterval": 300,
+    "maxRetries": 3,
+    "timeout": 30000,
+    "enableNotifications": true,
+    "defaultCarrier": "carrier_001",
+    "trackingUpdateFrequency": "hourly"
+  },
+  "monitoring": {
+    "enablePerformanceTracking": true,
+    "alertThresholds": {
+      "deliveryDelay": 24,
+      "apiResponseTime": 5000,
+      "errorRate": 0.05
+    }
+  },
+  "regions": {
+    "华北": ["北京", "天津", "河北", "山西", "内蒙古"],
+    "华东": ["上海", "江苏", "浙江", "安徽", "福建", "江西", "山东"],
+    "华南": ["广东", "广西", "海南"],
+    "华中": ["河南", "湖北", "湖南"],
+    "西南": ["重庆", "四川", "贵州", "云南", "西藏"],
+    "西北": ["陕西", "甘肃", "青海", "宁夏", "新疆"],
+    "东北": ["辽宁", "吉林", "黑龙江"]
+  }
+}
